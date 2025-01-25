@@ -197,18 +197,31 @@ get_header();
 </section>
 
 <section class="partners">
-    <div class="container">
-        <div class="partners-info">
-            <p>
-                <- </p>
-                    <div class="partners-info-img">
-                        <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners1.jpg" alt="img"></a>
-                        <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
-                        <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners3.jpg" alt="img"></a>
-                    </div>
-                    <p> -> </p>
+    <div class="partners-info">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Слайд 1 -->
+                <div class="swiper-slide">
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners1.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners3-1.jpg" alt="img"></a>
+                </div>
+                <!-- Слайд 2 -->
+                <div class="swiper-slide">
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners1.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners3.jpg" alt="img"></a>
+                </div>
+                <!-- Слайд 3 -->
+                <div class="swiper-slide">
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners1.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners3.jpg" alt="img"></a>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
-    </div>
     </div>
 </section>
 
