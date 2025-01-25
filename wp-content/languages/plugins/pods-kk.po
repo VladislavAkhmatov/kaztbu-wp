@@ -1,0 +1,24 @@
+# Translation of Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) in Kazakh
+# This file is distributed under the same license as the Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-02-16 16:53:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: kk_KZ\n"
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)\n"
+
+#: classes/PodsInit.php:2038
+msgid "Use as featured image"
+msgstr "Дайын сурет ретінде пайдалану"
+
+#: classes/PodsInit.php:2036
+msgid "Set featured image"
+msgstr "Дайын суретті кірістіру"
+
+#: classes/PodsInit.php:2037
+msgid "Remove featured image"
+msgstr "Дайын суретті аластау"

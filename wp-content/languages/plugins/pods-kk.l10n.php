@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.1','translation-revision-date'=>'2016-02-16 16:53:28+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)','language'=>'kk_KZ','messages'=>['Use as featured image'=>'Дайын сурет ретінде пайдалану','Set featured image'=>'Дайын суретті кірістіру','Remove featured image'=>'Дайын суретті аластау']];
