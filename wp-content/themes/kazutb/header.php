@@ -77,9 +77,23 @@
                         $current_language = pll_current_language();
                         if ($current_language == 'ru') {
                             ?>
-                            <select class="header-nav-select">
-                                <option value="ru">Карта сайта</option>
-                            </select>
+                            <div class="custom-nav">
+                                <div class="custom-nav-select">Карта сайта</div>
+                                <ul class="custom-nav-options">
+                                    <li data-links="about">Об университете</li>
+                                    <li data-links="admissions">Абитуриенту</li>
+                                    <li data-links="international">International</li>
+                                    <li data-links="life">Жизнь в КазУТБ</li>
+                                    <li data-links="career">Карьера</li>
+                                    <li data-links="education">Образование</li>
+                                    <li data-links="science">Наука</li>
+                                </ul>
+                            </div>
+                            <div class="custom-submenu" id="custom-submenu">
+                                <ul id="custom-submenu-links"></ul>
+                            </div>
+
+
                             <div class="overlay"></div>
                             <div class="menu-mobile">
                                 <img class="burger" src="<?= get_template_directory_uri() . '/assets/img/icon/burger.svg' ?>"
@@ -126,7 +140,7 @@
                         <div class="header-nav-center">
                             <div class="header-nav-ellipse"></div>
                             <div class="header-nav-logo">
-                                <img class="logo" src="http://kaztbu/wp-content/uploads/2025/01/logo.png" alt="">
+                                <img class="logo" src="http://kaztbu:8080/wp-content/uploads/2025/01/logo.png" alt="">
                             </div>
                         </div>
                         <div class="header-nav-right">

@@ -20,6 +20,13 @@ body {
     position: relative;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
 .arrow {
     position: fixed;
     color: black;
@@ -268,13 +275,75 @@ body {
     gap: 30px;
 }
 
-.header-nav-select {
+.custom-nav {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+
+.custom-nav-select {
     background-color: var(--second-color);
     color: #FFFFFF;
     font-size: 18px;
     border: none;
-    cursor: pointer;
+    padding: 10px 15px;
+    display: block;
+    text-align: left;
 }
+
+.custom-nav-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background: var(--second-color);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    border-radius: 5px;
+}
+
+.custom-nav-options li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: #FFFFFF;
+}
+
+.custom-nav-options li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.custom-nav:hover .custom-nav-options {
+    display: block;
+}
+
+.custom-submenu {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    background: var(--second-color);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: none;
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 65px;
+}
+
+.custom-submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-submenu ul li {
+    padding: 5px 0;
+    color: #FFFFFF;
+}
+
 
 .header-help-menu-burger {
     background-color: var(--main-color);
@@ -763,7 +832,7 @@ body {
 
 .swiper-slide img {
     width: 300px;
-    height: 130px;
+    height: 150px;
     padding: 0 20px 0 20px;
 }
 
@@ -1023,8 +1092,9 @@ footer {
         display: none;
     }
 
-    .header-nav-select {
+    .custom-nav {
         display: none;
+
     }
 
     .burger {

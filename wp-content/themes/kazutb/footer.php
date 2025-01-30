@@ -11,7 +11,7 @@
                     ?>
                     <div class="footer-block">
                         <div class="block-content1">
-                            <img src="http://kaztbu/wp-content/uploads/2025/01/logo.png" alt="">
+                            <img src="http://kaztbu:8080/wp-content/uploads/2025/01/logo.png" alt="">
                             <div class="block-content-text">
                                 <p>© акционерное Общество</p>
                                 <h2>Казахский университет технологии и бизнеса имени К. Кулажанова</h2>
@@ -48,7 +48,7 @@
                     ?>
                     <div class="footer-block">
                         <div class="block-content1">
-                            <img src="http://kaztbu/wp-content/uploads/2025/01/logo.png" alt="">
+                            <img src="http://kaztbu:8080/wp-content/uploads/2025/01/logo.png" alt="">
                             <div class="block-content-text">
                                 <p>© акционерлік қоғам</p>
                                 <h2>Қ. Құлажанов атындағы Қазақ технология және бизнес университеті</h2>
@@ -86,7 +86,7 @@
                     ?>
                     <div class="footer-block">
                         <div class="block-content1">
-                            <img src="http://kaztbu/wp-content/uploads/2025/01/logo.png" alt="">
+                            <img src="http://kaztbu:8080/wp-content/uploads/2025/01/logo.png" alt="">
                             <div class="block-content-text">
                                 <p>© Joint Stock Company</p>
                                 <h2>K. Kulazhanov Kazakh University of technology and business</h2>

@@ -17,7 +17,7 @@ get_header();
                 </div>
             </div>
             <div class="header-main-right">
-                <img src="http://kaztbu/wp-content/uploads/2025/01/header-main-image.png">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/01/header-main-image.png">
             </div>
         </div>
     </div>
@@ -200,27 +200,19 @@ get_header();
     <div class="partners-info">
         <div class="swiper">
             <div class="swiper-wrapper">
-                <!-- Слайд 1 -->
                 <div class="swiper-slide">
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners1.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners3-1.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners1-1.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/bolashak.png" alt="img"></a>
+                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/link1-1.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/link3.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners3-1.jpg" alt="img"></a>
+                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/part3.png" alt="img"></a>
+
                 </div>
-                <!-- Слайд 2 -->
-                <div class="swiper-slide">
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners1.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners3.jpg" alt="img"></a>
-                </div>
-                <!-- Слайд 3 -->
-                <div class="swiper-slide">
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners1.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners3.jpg" alt="img"></a>
-                </div>
+
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+
         </div>
     </div>
 </section>
@@ -302,9 +294,9 @@ get_header();
             <p>
                 <- </p>
                     <div class="our-partners-info-img">
-                        <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners4.png" alt=""></a>
-                        <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners5.png" alt=""></a>
-                        <a href=""><img src="http://kaztbu/wp-content/uploads/2025/01/partners6.png" alt=""></a>
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners4.png" alt=""></a>
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners5.png" alt=""></a>
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners6.png" alt=""></a>
                     </div>
                     <p> -> </p>
         </div>
