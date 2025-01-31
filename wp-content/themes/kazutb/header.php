@@ -12,6 +12,48 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title>KazTBU</title>
+    <script>
+        var currentLanguage = "<?= pll_current_language(); ?>";
+
+        var linksData = {
+            about: {
+                ru: ["История", "Миссия", "Руководство"],
+                kk: ["Тарих", "Миссия", "Басшылық"],
+                en: ["History", "Mission", "Management"]
+            },
+            admissions: {
+                ru: ["Правила поступления", "Документы", "Контакты"],
+                kk: ["Қабылдау ережелері", "Құжаттар", "Байланыс"],
+                en: ["Admission Rules", "Documents", "Contacts"]
+            },
+            international: {
+                ru: ["Программы обмена", "Партнеры"],
+                kk: ["Алмасу бағдарламалары", "Серіктестер"],
+                en: ["Exchange Programs", "Partners"]
+            },
+            life: {
+                ru: ["Студенческие клубы", "Кампус", "События"],
+                kk: ["Студенттік клубтар", "Кампус", "Оқиғалар"],
+                en: ["Student Clubs", "Campus", "Events"]
+            },
+            career: {
+                ru: ["Вакансии", "Стажировки"],
+                kk: ["Бос орындар", "Тәжірибелер"],
+                en: ["Vacancies", "Internships"]
+            },
+            education: {
+                ru: ["Факультеты", "Курсы", "Расписание"],
+                kk: ["Факультеттер", "Курстар", "Кесте"],
+                en: ["Faculties", "Courses", "Schedule"]
+            },
+            science: {
+                ru: ["Исследования", "Гранты", "Публикации"],
+                kk: ["Зерттеулер", "Гранттар", "Жарияланымдар"],
+                en: ["Research", "Grants", "Publications"]
+            }
+        };
+    </script>
+
 </head>
 
 <body>
@@ -146,8 +188,7 @@
                         <div class="header-nav-right">
                             <a class="link" href="#">Вестник KazUTB</a>
                             <a class="link" href="#">E-library</a>
-                            <a class="link" href="#">Контакты</a>
-
+                            <a class="link" href="<?= get_permalink(221) ?>">Контакты</a>
                         </div>
 
 
@@ -161,9 +202,21 @@
 
 
 
-                        <select class="header-nav-select">
-                            <option value="ru">Сайт картасы</option>
-                        </select>
+                        <div class="custom-nav">
+                            <div class="custom-nav-select">Сайт картасы</div>
+                            <ul class="custom-nav-options">
+                                <li data-links="about">Университет туралы</li>
+                                <li data-links="admissions">Талапкерге</li>
+                                <li data-links="international">International</li>
+                                <li data-links="life">ҚазТБУ-дағы өмір</li>
+                                <li data-links="career">Мансап</li>
+                                <li data-links="education">Білім</li>
+                                <li data-links="science">Ғылым</li>
+                            </ul>
+                        </div>
+                        <div class="custom-submenu" id="custom-submenu">
+                            <ul id="custom-submenu-links"></ul>
+                        </div>
                         <div class="overlay"></div>
                         <div class="menu-mobile">
                             <img class="burger" src="<?= get_template_directory_uri() . '/assets/img/icon/burger.svg' ?>"
@@ -216,7 +269,7 @@
                     <div class="header-nav-right">
                         <a class="link" href="#">Хабаршы KazUTB</a>
                         <a class="link" href="#">E-library</a>
-                        <a class="link" href="#">Байланыс</a>
+                        <a class="link" href="<?= get_permalink(227) ?>">Байланыс</a>
                     </div>
 
 
@@ -227,9 +280,21 @@
 
 
 
-                    <select class="header-nav-select">
-                        <option value="ru">Site map</option>
-                    </select>
+                    <div class="custom-nav">
+                        <div class="custom-nav-select">Site map</div>
+                        <ul class="custom-nav-options">
+                            <li data-links="about">About the University</li>
+                            <li data-links="admissions">To the applicant</li>
+                            <li data-links="international">International</li>
+                            <li data-links="life">Life in KazUTB</li>
+                            <li data-links="career">Career</li>
+                            <li data-links="education">Education</li>
+                            <li data-links="science">Science</li>
+                        </ul>
+                    </div>
+                    <div class="custom-submenu" id="custom-submenu">
+                        <ul id="custom-submenu-links"></ul>
+                    </div>
                     <div class="overlay"></div>
                     <div class="menu-mobile">
                         <img class="burger" src="<?= get_template_directory_uri() . '/assets/img/icon/burger.svg' ?>"
@@ -280,7 +345,7 @@
                 <div class="header-nav-right">
                     <a class="link" href="#">KazUTB Bulletin</a>
                     <a class="link" href="#">E-library</a>
-                    <a class="link" href="#">Contacts</a>
+                    <a class="link" href="<?= get_permalink(223) ?>">Contacts</a>
                 </div>
 
 

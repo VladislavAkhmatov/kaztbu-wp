@@ -186,26 +186,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const submenu = document.getElementById("custom-submenu");
     const submenuLinks = document.getElementById("custom-submenu-links");
-    let submenuTimeout; // Таймаут для скрытия подменю
-
-    // Дополнительные ссылки для каждого пункта
-    const linksData = {
-        about: ["История", "Миссия", "Руководство"],
-        admissions: ["Правила поступления", "Документы", "Контакты"],
-        international: ["Программы обмена", "Партнеры"],
-        life: ["Студенческие клубы", "Кампус", "События"],
-        career: ["Вакансии", "Стажировки"],
-        education: ["Факультеты", "Курсы", "Расписание"],
-        science: ["Исследования", "Гранты", "Публикации"]
-    };
+    let submenuTimeout;
 
     // Обрабатываем наведение на пункты основного меню
     document.querySelectorAll(".custom-nav-options li").forEach(item => {
         item.addEventListener("mouseenter", (e) => {
-            clearTimeout(submenuTimeout); // Отменяем скрытие подменю
+            clearTimeout(submenuTimeout);
 
             let key = e.target.getAttribute("data-links");
-            let links = linksData[key];
+            let links = linksData[key] ? linksData[key][currentLanguage] : null;
 
             if (links) {
                 submenuLinks.innerHTML = links.map(link => `<li>${link}</li>`).join("");
@@ -215,25 +204,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Когда мышь уходит из пункта меню, запускаем таймер скрытия
     document.querySelectorAll(".custom-nav-options li").forEach(item => {
         item.addEventListener("mouseleave", () => {
             submenuTimeout = setTimeout(() => {
                 submenu.style.display = "none";
-            }, 300); // Ждем 300 мс перед скрытием
+            }, 300);
         });
     });
 
-    // Оставляем подменю видимым при наведении на него
     submenu.addEventListener("mouseenter", () => {
-        clearTimeout(submenuTimeout); // Отменяем скрытие подменю
+        clearTimeout(submenuTimeout);
     });
 
     submenu.addEventListener("mouseleave", () => {
         submenuTimeout = setTimeout(() => {
             submenu.style.display = "none";
-        }, 300); // Ждем 300 мс перед скрытием
+        }, 300);
     });
+
 
 
 });
