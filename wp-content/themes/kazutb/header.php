@@ -53,7 +53,6 @@
             }
         };
     </script>
-
 </head>
 
 <body>
@@ -181,9 +180,11 @@
                         </div>
                         <div class="header-nav-center">
                             <div class="header-nav-ellipse"></div>
-                            <div class="header-nav-logo">
-                                <img class="logo" src="http://kaztbu:8080/wp-content/uploads/2025/01/logo.png" alt="">
-                            </div>
+                            <a href="<?= home_url() ?>">
+                                <div class="header-nav-logo">
+                                    <img class="logo" src="http://kaztbu:8080/wp-content/uploads/2025/01/logo.png" alt="">
+                                </div>
+                            </a>
                         </div>
                         <div class="header-nav-right">
                             <a class="link" href="#">Вестник KazUTB</a>
@@ -261,10 +262,11 @@
                     </div>
                     <div class="header-nav-center">
                         <div class="header-nav-ellipse"></div>
-                        <div class="header-nav-logo">
-                            <img class="logo" src="<?= get_template_directory_uri() . '/assets/img/template/logo.svg' ?>"
-                                alt="">
-                        </div>
+                        <a href="<?= home_url() ?>">
+                            <div class="header-nav-logo">
+                                <img class="logo" src="http://kaztbu:8080/wp-content/uploads/2025/01/logo.png" alt="">
+                            </div>
+                        </a>
                     </div>
                     <div class="header-nav-right">
                         <a class="link" href="#">Хабаршы KazUTB</a>
@@ -338,9 +340,11 @@
                 </div>
                 <div class="header-nav-center">
                     <div class="header-nav-ellipse"></div>
-                    <div class="header-nav-logo">
-                        <img class="logo" src="<?= get_template_directory_uri() . '/assets/img/template/logo.svg' ?>" alt="">
-                    </div>
+                    <a href="<?= home_url() ?>">
+                        <div class="header-nav-logo">
+                            <img class="logo" src="http://kaztbu:8080/wp-content/uploads/2025/01/logo.png" alt="">
+                        </div>
+                    </a>
                 </div>
                 <div class="header-nav-right">
                     <a class="link" href="#">KazUTB Bulletin</a>
