@@ -185,6 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
             delay: 3000,  // Задержка между слайдами (в миллисекундах)
             disableOnInteraction: false,  // Прокрутка будет продолжаться даже после взаимодействия
         },
+        loop: true,
     });
 
 

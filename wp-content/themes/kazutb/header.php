@@ -201,13 +201,13 @@
                                 <div class="custom-nav">
                                     <div class="custom-nav-select">Карта сайта</div>
                                     <ul class="custom-nav-options">
-                                        <li data-links="about">Об университете</li>
-                                        <li data-links="admissions">Абитуриенту</li>
-                                        <li data-links="international">International</li>
-                                        <li data-links="life">Жизнь в КазУТБ</li>
-                                        <li data-links="career">Карьера</li>
-                                        <li data-links="education">Образование</li>
-                                        <li data-links="science">Наука</li>
+                                        <li data-links="about"><a href="<?= get_permalink(255) ?>">Об университете</a></li>
+                                        <li data-links="admissions"><a href="#">Абитуриенту</a></li>
+                                        <li data-links="international"><a href="#">International</a></li>
+                                        <li data-links="life"><a href="#">Жизнь в КазУТБ</a></li>
+                                        <li data-links="career"><a href="#">Карьера</a></li>
+                                        <li data-links="education"><a href="#">Образование</a></li>
+                                        <li data-links="science"><a href="#">Наука</a></li>
                                     </ul>
                                     <div class="custom-submenu" id="custom-submenu">
                                         <ul id="custom-submenu-links"></ul>
@@ -242,7 +242,8 @@
                                         </div>
                                     </div>
                                     <a href="#" class="menu-toggle-2">Колледж</a>
-                                    <a href="#" class="menu-toggle-2">Вестник KazUTB</a>
+                                    <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb" class="menu-toggle-2">Вестник
+                                        KazUTB</a>
                                     <a href="#" class="menu-toggle-2">E-library</a>
                                     <a href="#" class="menu-toggle-2">Контакты</a>
                                     <div class="header-help-social-burger">
@@ -268,7 +269,7 @@
                             </a>
                         </div>
                         <div class="header-nav-right">
-                            <a class="link" href="#">Вестник KazUTB</a>
+                            <a class="link" href="https://vestnik.kaztbu.edu.kz/index.php/kazutb">Вестник KazUTB</a>
                             <a class="link" href="#">E-library</a>
                             <a class="link" href="<?= get_permalink(221) ?>">Контакты</a>
                         </div>
@@ -283,21 +284,22 @@
 
 
 
-
-                        <div class="custom-nav">
-                            <div class="custom-nav-select">Сайт картасы</div>
-                            <ul class="custom-nav-options">
-                                <li data-links="about">Университет туралы</li>
-                                <li data-links="admissions">Талапкерге</li>
-                                <li data-links="international">International</li>
-                                <li data-links="life">ҚазТБУ-дағы өмір</li>
-                                <li data-links="career">Мансап</li>
-                                <li data-links="education">Білім</li>
-                                <li data-links="science">Ғылым</li>
-                            </ul>
-                        </div>
-                        <div class="custom-submenu" id="custom-submenu">
-                            <ul id="custom-submenu-links"></ul>
+                        <div class="custom-nav-container">
+                            <div class="custom-nav">
+                                <div class="custom-nav-select">Сайт картасы</div>
+                                <ul class="custom-nav-options">
+                                    <li data-links="about"><a href="<?= get_permalink(259) ?>">Университет туралы</a></li>
+                                    <li data-links="admissions"><a href="#">Талапкерге</a></li>
+                                    <li data-links="international"><a href="#">International</a></li>
+                                    <li data-links="life"><a href="#">ҚазТБУ-дағы өмір</a></li>
+                                    <li data-links="career"><a href="#">Мансап</a></li>
+                                    <li data-links="education"><a href="#">Білім</a></li>
+                                    <li data-links="science"><a href="#">Ғылым</a></li>
+                                </ul>
+                                <div class="custom-submenu" id="custom-submenu">
+                                    <ul id="custom-submenu-links"></ul>
+                                </div>
+                            </div>
                         </div>
                         <div class="overlay"></div>
                         <div class="menu-mobile">
@@ -325,7 +327,8 @@
                                     </div>
                                 </div>
                                 <a href="#" class="menu-toggle-2">Колледж</a>
-                                <a href="#" class="menu-toggle-2">Хабаршы KazUTB</a>
+                                <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb" class="menu-toggle-2">Хабаршы
+                                    KazUTB</a>
                                 <a href="#" class="menu-toggle-2">E-library</a>
                                 <a href="#" class="menu-toggle-2">Байланыс</a>
                                 <div class="header-help-social-burger">
@@ -350,7 +353,7 @@
                         </a>
                     </div>
                     <div class="header-nav-right">
-                        <a class="link" href="#">Хабаршы KazUTB</a>
+                        <a class="link" href="https://vestnik.kaztbu.edu.kz/index.php/kazutb">Хабаршы KazUTB</a>
                         <a class="link" href="#">E-library</a>
                         <a class="link" href="<?= get_permalink(227) ?>">Байланыс</a>
                     </div>
@@ -362,21 +365,22 @@
                             ?>
 
 
-
-                    <div class="custom-nav">
-                        <div class="custom-nav-select">Site map</div>
-                        <ul class="custom-nav-options">
-                            <li data-links="about">About the University</li>
-                            <li data-links="admissions">To the applicant</li>
-                            <li data-links="international">International</li>
-                            <li data-links="life">Life in KazUTB</li>
-                            <li data-links="career">Career</li>
-                            <li data-links="education">Education</li>
-                            <li data-links="science">Science</li>
-                        </ul>
-                    </div>
-                    <div class="custom-submenu" id="custom-submenu">
-                        <ul id="custom-submenu-links"></ul>
+                    <div class="custom-nav-container">
+                        <div class="custom-nav">
+                            <div class="custom-nav-select">Site map</div>
+                            <ul class="custom-nav-options">
+                                <li data-links="about"><a href="<?= get_permalink(257) ?>">About the University</a></li>
+                                <li data-links="admissions"><a href="#">To the applicant</a></li>
+                                <li data-links="international"><a href="#">International</a></li>
+                                <li data-links="life"><a href="#">Life in KazUTB</a></li>
+                                <li data-links="career"><a href="#">Career</a></li>
+                                <li data-links="education"><a href="#">Education</a></li>
+                                <li data-links="science"><a href="#">Science</a></li>
+                            </ul>
+                            <div class="custom-submenu" id="custom-submenu">
+                                <ul id="custom-submenu-links"></ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="overlay"></div>
                     <div class="menu-mobile">
@@ -403,7 +407,7 @@
                                 </div>
                             </div>
                             <a href="#" class="menu-toggle-2">College</a>
-                            <a href="#" class="menu-toggle-2">KazUTB Bulletin</a>
+                            <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb" class="menu-toggle-2">KazUTB Bulletin</a>
                             <a href="#" class="menu-toggle-2">E-library</a>
                             <a href="#" class="menu-toggle-2">Contacts</a>
                             <div class="header-help-social-burger">
@@ -428,7 +432,7 @@
                     </a>
                 </div>
                 <div class="header-nav-right">
-                    <a class="link" href="#">KazUTB Bulletin</a>
+                    <a class="link" href="https://vestnik.kaztbu.edu.kz/index.php/kazutb">KazUTB Bulletin</a>
                     <a class="link" href="#">E-library</a>
                     <a class="link" href="<?= get_permalink(223) ?>">Contacts</a>
                 </div>
