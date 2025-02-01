@@ -1,6 +1,7 @@
 <footer>
-    <div class="footer-upper-line">
-
+    <div class="footer-padding">
+        <div class="footer-upper-line">
+        </div>
     </div>
     <div class="footer-container">
         <div class="footer-wrapper">

@@ -17,41 +17,120 @@
 
         var linksData = {
             about: {
-                ru: ["История", "Миссия", "Руководство"],
-                kk: ["Тарих", "Миссия", "Басшылық"],
-                en: ["History", "Mission", "Management"]
+                ru: [
+                    { name: "История", url: "/about/history" },
+                    { name: "Миссия", url: "/about/mission" },
+                    { name: "Руководство", url: "/about/management" }
+                ],
+                kk: [
+                    { name: "Тарих", url: "/kk/about/history" },
+                    { name: "Миссия", url: " /kk/about/mission" },
+                    { name: "Басшылық", url: "/kk/about/management" }
+                ],
+                en: [
+                    { name: "History", url: "/en/about/history" },
+                    { name: "Mission", url: "/en/about/mission" },
+                    { name: "Management", url: "/en/about/management" }
+                ]
             },
             admissions: {
-                ru: ["Правила поступления", "Документы", "Контакты"],
-                kk: ["Қабылдау ережелері", "Құжаттар", "Байланыс"],
-                en: ["Admission Rules", "Documents", "Contacts"]
+                ru: [
+                    { name: "Правила поступления", url: "/admissions/rules" },
+                    { name: "Документы", url: "/admissions/documents" },
+                    { name: "Контакты", url: "/admissions/contacts" }
+                ],
+                kk: [
+                    { name: "Қабылдау ережелері", url: "/kk/admissions/rules" },
+                    { name: "Құжаттар", url: "/kk/admissions/documents" },
+                    { name: "Байланыс", url: "/kk/admissions/contacts" }
+                ],
+                en: [
+                    { name: "Admission Rules", url: "/en/admissions/rules" },
+                    { name: "Documents", url: "/en/admissions/documents" },
+                    { name: "Contacts", url: "/en/admissions/contacts" }
+                ]
             },
             international: {
-                ru: ["Программы обмена", "Партнеры"],
-                kk: ["Алмасу бағдарламалары", "Серіктестер"],
-                en: ["Exchange Programs", "Partners"]
+                ru: [
+                    { name: "Программы обмена", url: "/international/exchange" },
+                    { name: "Партнеры", url: "/international/partners" }
+                ],
+                kk: [
+                    { name: "Алмасу бағдарламалары", url: "/kk/international/exchange" },
+                    { name: "Серіктестер", url: "/kk/international/partners" }
+                ],
+                en: [
+                    { name: "Exchange Programs", url: "/en/international/exchange" },
+                    { name: "Partners", url: "/en/international/partners" }
+                ]
             },
             life: {
-                ru: ["Студенческие клубы", "Кампус", "События"],
-                kk: ["Студенттік клубтар", "Кампус", "Оқиғалар"],
-                en: ["Student Clubs", "Campus", "Events"]
+                ru: [
+                    { name: "Студенческие клубы", url: "/life/clubs" },
+                    { name: "Кампус", url: "/life/campus" },
+                    { name: "События", url: "/life/events" }
+                ],
+                kk: [
+                    { name: "Студенттік клубтар", url: "/kk/life/clubs" },
+                    { name: "Кампус", url: "/kk/life/campus" },
+                    { name: "Оқиғалар", url: "/kk/life/events" }
+                ],
+                en: [
+                    { name: "Student Clubs", url: "/en/life/clubs" },
+                    { name: "Campus", url: "/en/life/campus" },
+                    { name: "Events", url: "/en/life/events" }
+                ]
             },
             career: {
-                ru: ["Вакансии", "Стажировки"],
-                kk: ["Бос орындар", "Тәжірибелер"],
-                en: ["Vacancies", "Internships"]
+                ru: [
+                    { name: "Вакансии", url: "/career/jobs" },
+                    { name: "Стажировки", url: "/career/internships" }
+                ],
+                kk: [
+                    { name: "Бос орындар", url: "/kk/career/jobs" },
+                    { name: "Тәжірибелер", url: "/kk/career/internships" }
+                ],
+                en: [
+                    { name: "Vacancies", url: "/en/career/jobs" },
+                    { name: "Internships", url: "/en/career/internships" }
+                ]
             },
             education: {
-                ru: ["Факультеты", "Курсы", "Расписание"],
-                kk: ["Факультеттер", "Курстар", "Кесте"],
-                en: ["Faculties", "Courses", "Schedule"]
+                ru: [
+                    { name: "Факультеты", url: "/education/faculties" },
+                    { name: "Курсы", url: "/education/courses" },
+                    { name: "Расписание", url: "/education/schedule" }
+                ],
+                kk: [
+                    { name: "Факультеттер", url: "/kk/education/faculties" },
+                    { name: "Курстар", url: "/kk/education/courses" },
+                    { name: "Кесте", url: "/kk/education/schedule" }
+                ],
+                en: [
+                    { name: "Faculties", url: "/en/education/faculties" },
+                    { name: "Courses", url: "/en/education/courses" },
+                    { name: "Schedule", url: "/en/education/schedule" }
+                ]
             },
             science: {
-                ru: ["Исследования", "Гранты", "Публикации"],
-                kk: ["Зерттеулер", "Гранттар", "Жарияланымдар"],
-                en: ["Research", "Grants", "Publications"]
+                ru: [
+                    { name: "Исследования", url: "/science/research" },
+                    { name: "Гранты", url: "/science/grants" },
+                    { name: "Публикации", url: "/science/publications" }
+                ],
+                kk: [
+                    { name: "Зерттеулер", url: "/kk/science/research" },
+                    { name: "Гранттар", url: "/kk/science/grants" },
+                    { name: "Жарияланымдар", url: "/kk/science/publications" }
+                ],
+                en: [
+                    { name: "Research", url: "/en/science/research" },
+                    { name: "Grants", url: "/en/science/grants" },
+                    { name: "Publications", url: "/en/science/publications" }
+                ]
             }
         };
+
     </script>
 </head>
 
@@ -118,20 +197,22 @@
                         $current_language = pll_current_language();
                         if ($current_language == 'ru') {
                             ?>
-                            <div class="custom-nav">
-                                <div class="custom-nav-select">Карта сайта</div>
-                                <ul class="custom-nav-options">
-                                    <li data-links="about">Об университете</li>
-                                    <li data-links="admissions">Абитуриенту</li>
-                                    <li data-links="international">International</li>
-                                    <li data-links="life">Жизнь в КазУТБ</li>
-                                    <li data-links="career">Карьера</li>
-                                    <li data-links="education">Образование</li>
-                                    <li data-links="science">Наука</li>
-                                </ul>
-                            </div>
-                            <div class="custom-submenu" id="custom-submenu">
-                                <ul id="custom-submenu-links"></ul>
+                            <div class="custom-nav-container">
+                                <div class="custom-nav">
+                                    <div class="custom-nav-select">Карта сайта</div>
+                                    <ul class="custom-nav-options">
+                                        <li data-links="about">Об университете</li>
+                                        <li data-links="admissions">Абитуриенту</li>
+                                        <li data-links="international">International</li>
+                                        <li data-links="life">Жизнь в КазУТБ</li>
+                                        <li data-links="career">Карьера</li>
+                                        <li data-links="education">Образование</li>
+                                        <li data-links="science">Наука</li>
+                                    </ul>
+                                    <div class="custom-submenu" id="custom-submenu">
+                                        <ul id="custom-submenu-links"></ul>
+                                    </div>
+                                </div>
                             </div>
 
 

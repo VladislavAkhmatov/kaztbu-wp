@@ -275,11 +275,35 @@ section {
     gap: 30px;
 }
 
+.custom-nav-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
 .custom-nav {
     position: relative;
     display: inline-block;
-    cursor: pointer;
     padding-bottom: 2px;
+}
+
+.custom-submenu-links {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.custom-submenu-links-li:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .custom-nav-select {
@@ -287,9 +311,13 @@ section {
     color: #FFFFFF;
     font-size: 18px;
     border: none;
-    padding: 10px 15px;
     display: block;
     text-align: left;
+}
+
+body.pojo-a11y-high-contrast img {
+    background: none !important;
+    background-color: none !important;
 }
 
 .custom-nav-options {
@@ -302,7 +330,6 @@ section {
     padding: 0;
     margin: 0;
     display: none;
-    border-radius: 5px;
 }
 
 .custom-nav-options li {
@@ -329,8 +356,7 @@ section {
     display: none;
     padding: 10px;
     width: 180px;
-    border-radius: 5px;
-    margin-top: 65px;
+    margin-top: 23px;
 }
 
 .custom-submenu ul {
@@ -507,7 +533,7 @@ section {
     padding: 12px;
     text-decoration: none;
     font-weight: bold;
-    width: 263px;
+    width: 280px;
     height: 44px;
     text-align: center;
 }
@@ -517,7 +543,7 @@ section {
 }
 
 .header-main {
-    margin-top: 14px;
+    padding-top: 14px;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -550,7 +576,7 @@ section {
     padding: 12px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background: var(--second-color);
-    width: 263px;
+    width: 280px;
     height: 44px;
     color: #fff;
     text-decoration: none;
@@ -565,7 +591,7 @@ section {
 .header-main-egov {
     border-radius: 8px;
     padding: 12px;
-    width: 263px;
+    width: 280px;
     height: 44px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background: #f3f0a5;
@@ -594,7 +620,7 @@ section {
 }
 
 .header-buttons {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .header-buttons-wrap {
@@ -618,12 +644,16 @@ section {
     text-decoration: none;
 }
 
+.sections {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
 .sections-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
 }
 
 .sections-buttons {
@@ -732,7 +762,6 @@ section {
 }
 
 .about {
-    margin-top: 50px;
     background-color: var(--second-color);
     display: flex;
     align-items: center;
@@ -765,7 +794,7 @@ section {
 }
 
 .links {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .links-wrap {
@@ -818,7 +847,17 @@ section {
     color: #000;
     font-weight: bold;
     font-size: 26px;
-    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .swiper-slide {
@@ -832,7 +871,7 @@ section {
 
 .swiper-slide img {
     width: 300px;
-    height: 150px;
+    height: auto;
     padding: 0 20px 0 20px;
 }
 
@@ -851,16 +890,6 @@ section {
     gap: 40px;
 }
 
-.partners-info-img {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.partners-info-img img {
-    width: 180px;
-}
-
 .our-partners-info-img {
     display: flex;
     align-items: center;
@@ -872,7 +901,7 @@ section {
 }
 
 .about-university {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .about-university h2 {
@@ -924,7 +953,7 @@ section {
 }
 
 .live {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .live h2 {
@@ -980,8 +1009,8 @@ section {
 }
 
 footer {
-    margin-top: 40px;
     background-color: var(--main-color);
+
 }
 
 .footer-wrapper {
@@ -1016,6 +1045,11 @@ footer {
 
 .block-content-text h2 {
     font-size: 20px;
+}
+
+.footer-padding {
+    padding-top: 40px;
+    background-color: #fff;
 }
 
 .footer-upper-line {
@@ -1104,6 +1138,17 @@ footer {
 @media (max-width: 1220px) {
     .container {
         padding: 0 15px;
+    }
+
+    .block {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+
+    .swiper-slide {
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
 

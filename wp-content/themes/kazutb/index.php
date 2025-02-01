@@ -201,21 +201,31 @@ get_header();
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners1-1.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/bolashak.png" alt="img"></a>
-                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/link1-1.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/link3.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners3-1.jpg" alt="img"></a>
-                    <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/part3.png" alt="img"></a>
-
+                    <div class="block">
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners1-1.jpg"
+                                alt="img"></a>
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners2.jpg" alt="img"></a>
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/bolashak.png" alt="img"></a>
+                    </div>
                 </div>
-
+                <div class="swiper-slide">
+                    <div class="block">
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/link1-1.jpg" alt="img"></a>
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/link3.jpg" alt="img"></a>
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/partners3-1.jpg"
+                                alt="img"></a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="block">
+                        <a href=""><img src="http://kaztbu:8080/wp-content/uploads/2025/01/part3.png" alt="img"></a>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
 </section>
+
 
 <section class="about-university">
     <h2><?= get_post_meta($post->ID, 'main_about_university', true) ?></h2>

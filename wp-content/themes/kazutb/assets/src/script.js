@@ -175,14 +175,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const swiper = new Swiper('.swiper', {
-        loop: true, // Зацикливание
-        navigation: {
+        slidesPerView: 1,  // Показывать один слайд за раз
+        spaceBetween: 10,  // Отступы между слайдами
+        navigation: {      // Добавление кнопок для прокрутки
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        slidesPerView: 1,
-        spaceBetween: 50,
+        autoplay: {
+            delay: 3000,  // Задержка между слайдами (в миллисекундах)
+            disableOnInteraction: false,  // Прокрутка будет продолжаться даже после взаимодействия
+        },
     });
+
 
     const submenu = document.getElementById("custom-submenu");
     const submenuLinks = document.getElementById("custom-submenu-links");
@@ -197,31 +201,51 @@ document.addEventListener('DOMContentLoaded', () => {
             let links = linksData[key] ? linksData[key][currentLanguage] : null;
 
             if (links) {
-                submenuLinks.innerHTML = links.map(link => `<li>${link}</li>`).join("");
+                submenuLinks.innerHTML = links.map(link =>
+                    `<a class="custom-submenu-links" href="${link.url}"><li class="custom-submenu-links-li">${link.name}</li></a>`
+                ).join("");
+
                 submenu.style.display = "block";
                 submenu.style.top = e.target.offsetTop + "px";
             }
         });
     });
 
-    document.querySelectorAll(".custom-nav-options li").forEach(item => {
-        item.addEventListener("mouseleave", () => {
-            submenuTimeout = setTimeout(() => {
+    // Убираем задержку скрытия, если курсор на меню или подменю
+    const menuContainer = document.querySelector(".custom-nav-options");
+
+    function hideSubmenu() {
+        submenuTimeout = setTimeout(() => {
+            if (!submenu.matches(":hover") && !menuContainer.matches(":hover")) {
                 submenu.style.display = "none";
-            }, 300);
+            }
+        }, 300);
+    }
+
+    menuContainer.addEventListener("mouseleave", hideSubmenu);
+    submenu.addEventListener("mouseleave", hideSubmenu);
+
+    menuContainer.addEventListener("mouseenter", () => clearTimeout(submenuTimeout));
+    submenu.addEventListener("mouseenter", () => clearTimeout(submenuTimeout));
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const settings = localStorage.getItem("accessibilitySettings");
+        if (settings) {
+            document.body.classList.add(...settings.split(" "));
+        }
+
+        document.querySelectorAll("#wpac-panel button").forEach(button => {
+            button.addEventListener("click", function () {
+                setTimeout(() => {
+                    const activeClasses = Array.from(document.body.classList)
+                        .filter(cls => cls.startsWith("wpac-"));
+                    localStorage.setItem("accessibilitySettings", activeClasses.join(" "));
+                }, 500);
+            });
         });
     });
-
-    submenu.addEventListener("mouseenter", () => {
-        clearTimeout(submenuTimeout);
-    });
-
-    submenu.addEventListener("mouseleave", () => {
-        submenuTimeout = setTimeout(() => {
-            submenu.style.display = "none";
-        }, 300);
-    });
-
 
 
 });
