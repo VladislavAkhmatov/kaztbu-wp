@@ -31,7 +31,7 @@ get_header();
             <a href="#"><?= get_post_meta($post->ID, 'main_science', true); ?> &#x2A01;</a>
             <a href="#"><?= get_post_meta($post->ID, 'main_career', true); ?> &#x2A01;</a>
             <a style="background: #f3f0a5; color:#000;"
-                href="#"><?= get_post_meta($post->ID, 'main_rector', true); ?></a>
+                href="<?= get_permalink(pll_get_post(267)) ?>"><?= get_post_meta($post->ID, 'main_rector', true); ?></a>
             <a href="#"><?= get_post_meta($post->ID, 'main_faculties', true); ?> &#x2A01;</a>
         </div>
     </div>

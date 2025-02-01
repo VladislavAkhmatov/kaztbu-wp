@@ -1150,6 +1150,68 @@ footer {
     overflow: hidden;
 }
 
+
+.rector-blog-page h1 {
+    font-size: 32px;
+    margin-top: 65px;
+    padding: 31px 0 49px 0;
+    color: #2D4B76;
+    text-align: center;
+}
+
+.rector-blog-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 75px;
+}
+
+.rector-blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.rector-blog-card img {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.rector-blog-card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 25px 0 25px;
+    row-gap: 12px;
+    width: 100%;
+    font-size: 25px;
+    color: #2D4B76;
+    text-align: justify;
+}
+
+.rector-blog-card-text h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.rector-blog-info {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 20px;
+    margin-top: auto;
+    padding-bottom: 20px;
+    color: #2D4B76;
+}
+
 @media (max-width: 1385px) {
     .footer-container {
         padding: 0 15px;
@@ -1455,6 +1517,25 @@ footer {
         gap: 100px;
     }
 
+    /*Blog*/
+    .rector-blog-page h1 {
+        font-size: 32px;
+        padding: 20px 0 30px 0;
+    }
+
+    .rector-blog-card-text {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .rector-blog-card-text h2 {
+        font-size: 22px;
+    }
+
+    .rector-blog-info {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
 }
 
 @media (max-width: 640px) {
