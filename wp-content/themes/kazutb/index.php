@@ -30,7 +30,7 @@ get_header();
             <a href="#"><?= get_post_meta($post->ID, 'main_life', true); ?> &#x2A01;</a>
             <a href="#"><?= get_post_meta($post->ID, 'main_science', true); ?> &#x2A01;</a>
             <a href="#"><?= get_post_meta($post->ID, 'main_career', true); ?> &#x2A01;</a>
-            <a style="background: #f3f0a5; color:#000;"
+            <a class="rector-btn"
                 href="<?= get_permalink(pll_get_post(267)) ?>"><?= get_post_meta($post->ID, 'main_rector', true); ?></a>
             <a href="#"><?= get_post_meta($post->ID, 'main_faculties', true); ?> &#x2A01;</a>
         </div>
@@ -286,9 +286,11 @@ get_header();
                 setup_postdata($item);
                 ?>
                 <div class="live-card">
-                    <h3><?= $item->post_title ?>
-                    </h3>
-                    <a href=""><?= get_post_meta($post->ID, 'main_more', true) ?></a>
+                    <a href="<?php the_permalink($item->ID) ?>">
+                        <h3 style="color: #fff"><?= $item->post_title ?>
+                        </h3>
+                        <p style="opacity: 0.6"><?= get_post_meta($post->ID, 'main_more', true) ?></p>
+                    </a>
                     <img src="<?= wp_get_attachment_image_url(($item->our_live_img), 'full') ?>" alt="">
                 </div>
                 <?php

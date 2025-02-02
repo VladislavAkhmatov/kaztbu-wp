@@ -548,6 +548,16 @@ body.pojo-a11y-high-contrast img {
     background-color: var(--button-hover);
 }
 
+.rector-btn {
+    background: #f3f0a5 !important;
+    color: #000 !important;
+}
+
+.rector-btn:hover {
+    background: #75711c !important;
+    color: #fff !important;
+}
+
 .header-main {
     padding-top: 14px;
     display: flex;
@@ -648,6 +658,10 @@ body.pojo-a11y-high-contrast img {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
+}
+
+.header-buttons-wrap a:hover {
+    background-color: var(--button-hover);
 }
 
 .sections {
@@ -1006,7 +1020,6 @@ body.pojo-a11y-high-contrast img {
 .live-card a {
     text-align: right;
     text-decoration: none;
-    opacity: 0.6;
     color: #fff;
     padding: 6px 16px 7px;
 }
