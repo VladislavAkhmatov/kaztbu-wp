@@ -830,6 +830,11 @@ body.pojo-a11y-high-contrast img {
     width: 80%;
 }
 
+.links-right-qr1 img {
+    width: 200px;
+    display: block;
+}
+
 .links-h2 {
     display: none;
 }
@@ -1164,13 +1169,14 @@ footer {
     flex-direction: column;
     gap: 30px;
     padding-bottom: 75px;
+    align-items: center;
 }
 
 .rector-blog-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 60%;
     background-color: #D9D9D9;
     border-radius: 10px;
 }
@@ -1521,6 +1527,10 @@ footer {
     .rector-blog-page h1 {
         font-size: 32px;
         padding: 20px 0 30px 0;
+    }
+
+    .rector-blog-card {
+        width: 80%;
     }
 
     .rector-blog-card-text {

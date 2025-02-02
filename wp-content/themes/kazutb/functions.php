@@ -7,3 +7,9 @@ function kaztbu_assets()
 
 add_action('wp_enqueue_scripts', 'kaztbu_assets');
 show_admin_bar(false);
+
+
+function formatting_date($date)
+{
+    return date('d.m.Y', strtotime($date));
+}
