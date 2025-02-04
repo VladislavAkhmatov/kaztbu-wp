@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.style.setProperty('--second-color', '#4974B2');
         document.documentElement.style.setProperty('--button-hover', '#193453'); // Светло-серый для кнопок
     }
+
     // Бургер меню
     const burger = document.querySelector('.burger');
     if (burger) {
@@ -102,6 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+
+
     // Обработчик для всех выпадающих меню
     const menuToggles = document.querySelectorAll('.menu-toggle');
     if (menuToggles.length > 0) {
@@ -122,6 +125,27 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         console.warn("Элементы '.menu-toggle' не найдены.");
     }
+    // Обработчик для submenu-toggle
+    const submenuToggles = document.querySelectorAll('.submenu-toggle');
+    if (submenuToggles.length > 0) {
+        submenuToggles.forEach(toggle => {
+            toggle.addEventListener('click', event => {
+                event.preventDefault(); // Предотвращаем переход по ссылке
+                const parentDropdown = toggle.closest('li'); // Получаем родительский <li>
+                parentDropdown.classList.toggle('open'); // Переключаем класс 'open'
+
+                // Закрываем другие подменю
+                document.querySelectorAll('.dropdown-li').forEach(dropdown => {
+                    if (dropdown !== parentDropdown) {
+                        dropdown.classList.remove('open');
+                    }
+                });
+            });
+        });
+    } else {
+        console.warn("Элементы '.submenu-toggle' не найдены.");
+    }
+
 
     const buttons = document.querySelectorAll('.sections-buttons button');
     const sections = document.querySelectorAll('.sections-cards');
@@ -203,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (links) {
                 submenuLinks.innerHTML = links.map(link =>
-                    `<a class="custom-submenu-links" href="${link.url}"><li class="custom-submenu-links-li">${link.name}</li></a>`
+                    `<a class="custom-submenu-links" href="${link.url}"><li  class="custom-submenu-links-li">${link.name}</li></a>`
                 ).join("");
 
                 submenu.style.display = "block";
@@ -244,6 +268,19 @@ document.addEventListener('DOMContentLoaded', () => {
                         .filter(cls => cls.startsWith("wpac-"));
                     localStorage.setItem("accessibilitySettings", activeClasses.join(" "));
                 }, 500);
+            });
+        });
+    });
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const dropdownToggles = document.querySelectorAll('.dropdown .menu-toggle');
+
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', function (e) {
+                const dropdown = this.closest('.dropdown');
+                dropdown.classList.toggle('open');
             });
         });
     });
