@@ -435,16 +435,16 @@ body.pojo-a11y-high-contrast img {
     text-decoration: none;
     cursor: pointer;
     padding: 10px;
+    font-size: 20px;
 }
 
 .menu-toggle::after {
     content: '▼';
-    font-size: 10px;
+    font-size: 14px;
     /* Наследование размера шрифта */
     color: inherit;
     /* Наследование цвета текста */
     padding-left: 5px;
-
 }
 
 .dropdown-menu {
@@ -468,7 +468,7 @@ body.pojo-a11y-high-contrast img {
     color: #fff;
     padding: 5px 10px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .dropdown-menu a:hover {
@@ -481,6 +481,13 @@ body.pojo-a11y-high-contrast img {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.submenu li {
+    padding: 10px 0 10px 10px;
+    display: block;
+    white-space: nowrap;
+    /* Чтобы элементы не разбивались */
 }
 
 /* Показать подменю, когда родительский элемент имеет класс 'open' */
@@ -508,6 +515,7 @@ body.pojo-a11y-high-contrast img {
     text-decoration: none;
     cursor: pointer;
     padding: 10px;
+    font-size: 20px;
 }
 
 .header-help-social-burger {

@@ -571,8 +571,123 @@
                                 <div class="dropdown">
                                     <a href="#" class="menu-toggle">Сайт картасы</a>
                                     <div class="dropdown-menu">
-                                        <a href="#">Тест 1</a>
-                                        <a href="#">Тест 2</a>
+                                        <li data-links="about" class="dropdown-li">
+                                            <a href="javascript:void(0)" class="submenu-toggle"><b>Университет туралы</b></a>
+                                            <ul class="submenu">
+                                                <li><a href="/kk/about">Біз туралы</a></li>
+                                                <li><a href="/kk/about/media">Медиа</a></li>
+                                                <li><a href="/kk/about/development-strategy">Даму стратегиясы</a></li>
+                                                <li><a href="/kk/about/hr">Кадрлар бөлімі</a></li>
+                                                <li><a href="/kk/about/regulatory-documents">Нормативтік құжаттар</a></li>
+                                                <li><a href="/kk/about/anti-corruption">Коррупцияға қарсы тұру</a></li>
+                                                <li><a href="/kk/about/academic-council">Ғылыми кеңес</a></li>
+                                                <li><a href="/kk/about/accreditation-and-ratings">Аккредитация және
+                                                        рейтингтер</a></li>
+                                                <li><a href="/kk/about/technopark">Технопарк</a></li>
+                                                <li><a href="/kk/about/administrative-units">Әкімшілік бөлімдер</a></li>
+                                                <li><a href="/kk/about/management">Басшылық</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li data-links="admissions" class="dropdown-li">
+                                            <a href="javascript:void(0)" class="submenu-toggle"><b>Талапкерге</b></a>
+                                            <ul class="submenu">
+                                                <li><a href="/kk/admissions/virtual-office">Виртуалды қабылдау комиссиясы</a>
+                                                </li>
+                                                <li><a href="/kk/admissions/virtual-registrar">Виртуалды тіркеу кеңсесі</a></li>
+                                                <li><a href="/kk/admissions/rules">Қабылдау ережелері</a></li>
+                                                <li><a href="/kk/admissions/online-registration">Онлайн тіркеу</a></li>
+                                                <li><a href="/kk/admissions/contacts">Байланыс</a></li>
+                                                <li><a href="/kk/admissions/international">Шетел азаматтарын қабылдау</a></li>
+                                                <li><a href="/kk/admissions/bachelor">Бакалавриат</a></li>
+                                                <li><a href="/kk/admissions/master">Магистратура</a></li>
+                                                <li><a href="/kk/admissions/alumni">Түлектер</a></li>
+                                                <li><a href="/kk/admissions/faq">Жиі қойылатын сұрақтар</a></li>
+                                                <li><a href="/kk/admissions/why-choose-us">Неге КАЗУТБ?</a></li>
+                                                <li><a href="/kk/admissions/distance-learning">Қашықтан оқыту</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li data-links="international" class="dropdown-li">
+                                            <a href="javascript:void(0)" class="submenu-toggle"><b>International</b></a>
+                                            <ul class="submenu">
+                                                <li><a href="/kk/international/exchange">Халықаралық ынтымақтастық</a></li>
+                                                <li><a href="/kk/international/exchange">Тәжірибелер</a></li>
+                                                <li><a href="/kk/international/exchange">Академиялық ұтқырлық</a></li>
+                                                <li><a href="/kk/international/exchange">Қауымдастықтар, ұйымдар және
+                                                        консорциумдар</a></li>
+                                                <li><a href="/kk/international/partners">Серіктестер</a></li>
+                                            </ul>
+                                        </li>
+                                        <li data-links="life" class="dropdown-li">
+                                            <a href="javascript:void(0)" class="submenu-toggle"><b>ҚазТБУ-дағы өмір</b></a>
+                                            <ul class="submenu">
+                                                <li><a href="/kk/life/clubs">Жастар ісі жөніндегі комитет</a></li>
+                                                <li><a href="/kk/life/clubs">Студенттерге арналған әлеуметтік пакет</a></li>
+                                                <li><a href="/kk/life/clubs">Тәрбиелік жұмыс</a></li>
+                                                <li><a href="/kk/life/clubs">Қызығушылық клубтары</a></li>
+                                                <li><a href="/kk/life/clubs">Жатақхана</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li data-links="career" class="dropdown-li">
+                                            <a href="javascript:void(0)" class="submenu-toggle"><b>Мансап</b></a>
+                                            <ul class="submenu">
+                                                <li><a href="/kk/career/jobs">Түлектерді жұмысқа орналастыру</a></li>
+                                                <li><a href="/kk/career/jobs">Студенттер мен түлектерге арналған бос орындар</a>
+                                                </li>
+                                                <li><a href="/kk/career/jobs">Мансап орталығы</a></li>
+                                                <li><a href="/kk/career/jobs">Жұмысқа орналасу бойынша онлайн платформалар</a>
+                                                </li>
+                                                <li><a href="/kk/career/jobs">Резюме жасау және армандаған жұмысты табу</a></li>
+                                                <li><a href="/kk/career/jobs">Тәжірибе</a></li>
+                                                <li><a href="/kk/career/jobs">Серіктестер</a></li>
+                                                <li><a href="/kk/career/jobs">Жұмыс берушілердің пікірлері</a></li>
+                                                <li><a href="/kk/career/jobs">Жұмысқа орналасудың сәтті ережелері</a></li>
+                                            </ul>
+                                        </li>
+                                        <li data-links="education" class="dropdown-li">
+                                            <a href="javascript:void(0)" class="submenu-toggle"><b>Білім</b></a>
+                                            <ul class="submenu">
+                                                <li><a href="/kk/education/faculties">Кесте</a></li>
+                                                <li><a href="/kk/education/faculties">Академиялық күнтізбе</a></li>
+                                                <li><a href="/kk/education/faculties">Университетте онлайн оқыту ұйымдастыру</a>
+                                                </li>
+                                                <li><a href="/kk/education/faculties">Білім беру бағдарламалары</a></li>
+                                                <li><a href="/kk/education/faculties">Сапа менеджменті, аккредиттеу және
+                                                        рейтинг</a></li>
+                                                <li><a href="/kk/education/courses">Аударма, қалпына келтіру және шығару</a>
+                                                </li>
+                                                <li><a href="/kk/education/schedule">Қазақ тілінде 100 жаңа оқулық “100
+                                                        kitap”</a></li>
+                                                <li><a href="/kk/education/schedule">Материалдық-техникалық қамтамасыз ету</a>
+                                                </li>
+                                                <li><a href="/kk/education/schedule">Академиялық ынтымақтастық</a></li>
+                                                <li><a href="/kk/education/schedule">Студенттерге қызмет көрсету орталығы</a>
+                                                </li>
+                                                <li><a href="/kk/education/schedule">Академиялық адалдық кодексі</a></li>
+                                                <li><a href="/kk/education/schedule">Электронды кітапханалар</a></li>
+                                                <li><a href="/kk/education/schedule">Мемлекеттік грант иегерлері үшін
+                                                        ақпарат</a></li>
+                                                <li><a href="/kk/education/schedule">Көшбасшылық анықтамалық</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li data-links="science" class="dropdown-li">
+                                            <a href="javascript:void(0)" class="submenu-toggle"><b>Ғылым</b></a>
+                                            <ul class="submenu">
+                                                <li><a href="/kk/science/research">Бөлім туралы</a></li>
+                                                <li><a href="/kk/science/research">Халықаралық ынтымақтастық</a></li>
+                                                <li><a href="/kk/science/research">Ғылыми қызмет бағыттары</a></li>
+                                                <li><a href="/kk/science/research">Ғылыми орталықтар мен зертханалар</a></li>
+                                                <li><a href="/kk/science/research">Ғылыми жарияланымдар</a></li>
+                                                <li><a href="/kk/science/research">Педагогикалық қызметкерлердің
+                                                        жарияланымдары</a></li>
+                                                <li><a href="/kk/science/research">Жас ғалымдар кеңесі</a></li>
+                                                <li><a href="/kk/science/research">Ғылыми-техникалық кеңес</a></li>
+                                                <li><a href="/kk/science/research">Студенттердің ғылыми-зерттеу жұмысы</a></li>
+                                            </ul>
+                                        </li>
                                     </div>
                                 </div>
                                 <div class="dropdown">
@@ -596,6 +711,7 @@
                                             alt="telegram"></a>
                                 </div>
                             </div>
+
                         </div>
                         <a class="link" href="#">Түсім</a>
                         <a class="link" href="#">Колледж</a>
@@ -651,8 +767,115 @@
                             <div class="dropdown">
                                 <a href="#" class="menu-toggle">Site map</a>
                                 <div class="dropdown-menu">
-                                    <a href="#">test 1</a>
-                                    <a href="#">test 2</a>
+                                    <li data-links="about" class="dropdown-li">
+                                        <a href="javascript:void(0)" class="submenu-toggle"><b>About the University</b></a>
+                                        <ul class="submenu">
+                                            <li><a href="en/about">About Us</a></li>
+                                            <li><a href="en/about/media">Media</a></li>
+                                            <li><a href="en/about/development-strategy">Development Strategy</a></li>
+                                            <li><a href="en/about/hr">HR Department</a></li>
+                                            <li><a href="en/about/regulatory-documents">Regulatory Documents</a></li>
+                                            <li><a href="en/about/anti-corruption">Anti-Corruption</a></li>
+                                            <li><a href="en/about/academic-council">Academic Council</a></li>
+                                            <li><a href="en/about/accreditation-and-ratings">Accreditation and Ratings</a></li>
+                                            <li><a href="en/about/technopark">Technopark</a></li>
+                                            <li><a href="en/about/administrative-units">Administrative Units</a></li>
+                                            <li><a href="en/about/management">Management</a></li>
+                                        </ul>
+                                    </li>
+                                    <li data-links="admissions" class="dropdown-li">
+                                        <a href="javascript:void(0)" class="submenu-toggle"><b>To the applicant</b></a>
+                                        <ul class="submenu">
+                                            <li><a href="en/admissions/virtual-office">Virtual Admissions Office</a></li>
+                                            <li><a href="en/admissions/virtual-registrar">Virtual Registrar Office</a></li>
+                                            <li><a href="en/admissions/rules">Admission Rules</a></li>
+                                            <li><a href="en/admissions/online-registration">Online Registration</a></li>
+                                            <li><a href="en/admissions/contacts">Contacts</a></li>
+                                            <li><a href="en/admissions/international">Admission of International Students</a>
+                                            </li>
+                                            <li><a href="en/admissions/bachelor">Bachelor's Degree</a></li>
+                                            <li><a href="en/admissions/master">Master's Degree</a></li>
+                                            <li><a href="en/admissions/alumni">Alumni</a></li>
+                                            <li><a href="en/admissions/faq">Frequently Asked Questions</a></li>
+                                            <li><a href="en/admissions/why-choose-us">Why Choose Us?</a></li>
+                                            <li><a href="en/admissions/distance-learning">Distance Learning</a></li>
+                                        </ul>
+                                    </li>
+                                    <li data-links="international" class="dropdown-li">
+                                        <a href="javascript:void(0)" class="submenu-toggle"><b>International</b></a>
+                                        <ul class="submenu">
+                                            <li><a href="en/international/exchange">International Cooperation</a></li>
+                                            <li><a href="en/international/exchange">Internships</a></li>
+                                            <li><a href="en/international/exchange">Academic Mobility</a></li>
+                                            <li><a href="en/international/exchange">Associations, Organizations, and
+                                                    Consortia</a></li>
+                                            <li><a href="en/international/partners">Partners</a></li>
+
+
+                                        </ul>
+                                    </li>
+                                    <li data-links="life" class="dropdown-li">
+                                        <a href="javascript:void(0)" class="submenu-toggle"><b>Life in KazUTB</b></a>
+                                        <ul class="submenu">
+                                            <li><a href="en/life/clubs">Youth Affairs Committee</a></li>
+                                            <li><a href="en/life/clubs">Social Package for Students</a></li>
+                                            <li><a href="en/life/clubs">Educational Work</a></li>
+                                            <li><a href="en/life/clubs">Interest Clubs</a></li>
+                                            <li><a href="en/life/clubs">Dormitory</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li data-links="career" class="dropdown-li">
+                                        <a href="javascript:void(0)" class="submenu-toggle"><b>Career</b></a>
+                                        <ul class="submenu">
+                                            <li><a href="en/career/jobs">Graduate Employment</a></li>
+                                            <li><a href="en/career/jobs">Vacancies for Students and Graduates</a></li>
+                                            <li><a href="en/career/jobs">Career Center</a></li>
+                                            <li><a href="en/career/jobs">Online Job Platforms</a></li>
+                                            <li><a href="en/career/jobs">How to Write a Resume and Find Your Dream Job</a></li>
+                                            <li><a href="en/career/jobs">Internships</a></li>
+                                            <li><a href="en/career/jobs">Partners</a></li>
+                                            <li><a href="en/career/jobs">Employer Reviews</a></li>
+                                            <li><a href="en/career/jobs">Rules for Successful Employment</a></li>
+
+
+                                        </ul>
+                                    </li>
+                                    <li data-links="education" class="dropdown-li">
+                                        <a href="javascript:void(0)" class="submenu-toggle"><b>Education</b></a>
+                                        <ul class="submenu">
+                                            <li><a href="en/education/faculties">Schedule</a></li>
+                                            <li><a href="en/education/faculties">Academic Calendar</a></li>
+                                            <li><a href="en/education/faculties">Organization of online education at the
+                                                    university</a></li>
+                                            <li><a href="en/education/faculties">Educational Programs</a></li>
+                                            <li><a href="en/education/faculties">Quality Management, Accreditation and
+                                                    Ranking</a></li>
+                                            <li><a href="en/education/courses">Transfer, Restoration, and Expulsion</a></li>
+                                            <li><a href="en/education/schedule">100 New Textbooks in Kazakh “100 kitap”</a></li>
+                                            <li><a href="en/education/schedule">Material and Technical Support</a></li>
+                                            <li><a href="en/education/schedule">Academic Cooperation</a></li>
+                                            <li><a href="en/education/schedule">Student Service Center</a></li>
+                                            <li><a href="en/education/schedule">Academic Integrity Code</a></li>
+                                            <li><a href="en/education/schedule">Electronic Libraries</a></li>
+                                            <li><a href="en/education/schedule">Information for State Grant Holders</a></li>
+                                            <li><a href="en/education/schedule">Guidebook</a></li>
+                                        </ul>
+                                    </li>
+                                    <li data-links="science" class="dropdown-li">
+                                        <a href="javascript:void(0)" class="submenu-toggle"><b>Science</b></a>
+                                        <ul class="submenu">
+                                            <li><a href="en/science/research">About the Department</a></li>
+                                            <li><a href="en/science/research">International Cooperation</a></li>
+                                            <li><a href="en/science/research">Research Activity Directions</a></li>
+                                            <li><a href="en/science/research">Research Centers and Laboratories</a></li>
+                                            <li><a href="en/science/research">Scientific Publications</a></li>
+                                            <li><a href="en/science/research">Publications of Faculty Members</a></li>
+                                            <li><a href="en/science/research">Young Scientists Council</a></li>
+                                            <li><a href="en/science/research">Scientific and Technical Council</a></li>
+                                            <li><a href="en/science/research">Student Research Work</a></li>
+                                        </ul>
+                                    </li>
                                 </div>
                             </div>
                             <div class="dropdown">
@@ -663,7 +886,8 @@
                                 </div>
                             </div>
                             <a href="#" class="menu-toggle-2">College</a>
-                            <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb" class="menu-toggle-2">KazUTB Bulletin</a>
+                            <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb" class="menu-toggle-2">KazUTB
+                                Bulletin</a>
                             <a href="#" class="menu-toggle-2">E-library</a>
                             <a href="#" class="menu-toggle-2">Contacts</a>
                             <div class="header-help-social-burger">
