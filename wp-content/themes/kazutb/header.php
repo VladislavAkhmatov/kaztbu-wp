@@ -311,17 +311,24 @@
                     </div>
 
                     <div class="header-help-menu">
-                        <a class="eye" href="">
-                            <img src="<?= get_template_directory_uri() . '/assets/img/icon/eye.svg' ?>" alt="">
-                        </a>
+                        <div class="custom-dropdown">
+                            <a class="custom-dropdown-toggle" href="#">
+                                <img src="<?= get_template_directory_uri() . '/assets/img/icon/eye.svg' ?>" alt="Menu">
+                            </a>
+                            <ul class="custom-dropdown-menu">
+                                <?php echo do_shortcode('[wpa_toolbar]'); ?>
+                            </ul>
+                        </div>
+
                         <a class="search" href="">
-                            <img src="<?= get_template_directory_uri() . '/assets/img/icon/search.svg' ?>" alt="">
+                            <img src="<?= get_template_directory_uri() . '/assets/img/icon/search.svg' ?>" alt="Search">
                         </a>
+
                         <div class="header-help-select">
                             <?php pll_the_languages([
-                                'dropdown' => 1,   // Использовать выпадающий список
-                                'show_flags' => 1,   // Показывать флаги
-                                'show_names' => 0,   // Не показывать названия языков
+                                'dropdown' => 1,
+                                'show_flags' => 1,
+                                'show_names' => 0,
                             ]); ?>
                         </div>
                     </div>

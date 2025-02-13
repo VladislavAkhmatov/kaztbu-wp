@@ -285,6 +285,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    jQuery(document).ready(function ($) {
+        $('.custom-dropdown-toggle').click(function (e) {
+            e.preventDefault();
+            $(this).next('.custom-dropdown-menu').slideToggle();
+        });
+
+        $(document).click(function (e) {
+            if (!$(e.target).closest('.custom-dropdown').length) {
+                $('.custom-dropdown-menu').slideUp();
+            }
+        });
+    });
 
 });
 
