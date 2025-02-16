@@ -507,7 +507,7 @@
                                     <a href="#" class="menu-toggle-2">Колледж</a>
                                     <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb" class="menu-toggle-2">Вестник
                                         KazUTB</a>
-                                    <a href="#" class="menu-toggle-2">E-library</a>
+                                    <a href="<?= get_permalink(336); ?>" class="menu-toggle-2">E-library</a>
                                     <a href="#" class="menu-toggle-2">Контакты</a>
                                     <div class="header-help-social-burger">
                                         <a href="#"><img src="<?= get_template_directory_uri() . '/assets/img/icon/vk.svg' ?>"
@@ -533,7 +533,7 @@
                         </div>
                         <div class="header-nav-right">
                             <a class="link" href="https://vestnik.kaztbu.edu.kz/index.php/kazutb">Вестник KazUTB</a>
-                            <a class="link" href="#">E-library</a>
+                            <a class="link" href="<?= get_permalink(336); ?>">E-library</a>
                             <a class="link" href="<?= get_permalink(221) ?>">Контакты</a>
                         </div>
 

@@ -1293,6 +1293,79 @@ footer {
     color: #2D4B76;
 }
 
+/* elib */
+
+/* elib */
+.elib {
+    padding-top: 65px;
+    color: black;
+}
+
+.elib-h2 {
+    font-size: 32px;
+    padding: 31px 0 49px 0;
+    color: #2D4B76;
+    text-align: center;
+
+}
+
+.elib-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.elib-card {
+    border-radius: 10px;
+    width: 468px;
+    height: 174px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.elib-content {
+    padding: 20px 27px 20px 27px;
+}
+
+.elib-download {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 20;
+    padding-bottom: 20px;
+}
+
+.elib-download a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
+
+.elib-content p {
+    font-size: 10px;
+    color: #969696;
+}
+
+.elib-content h3 {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 28px 0 30px;
+
+}
+
+.elib img {
+    font-size: 13px;
+}
+
+.elib span {
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 10px;
+
+}
+
 @media (max-width: 1385px) {
     .footer-container {
         padding: 0 15px;
@@ -1560,6 +1633,17 @@ footer {
 
     .swiper-slide-img {
         padding: 0 35px 0 35px;
+    }
+
+    /* elib */
+
+    .elib-wrapper {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .elib-card {
+        width: 600px;
     }
 }
 
