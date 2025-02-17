@@ -12,9 +12,9 @@ get_header();
             <div class="rector-blog-card">
                 <img src="http://kaztbu:8080/wp-content/uploads/2025/02/image.png" alt="rector-blog-img">
                 <div class="rector-blog-card-text">
-                    <h2><?= get_post_meta($post->ID, 'rector_title', true) ?></h2>
-                    <p><?= get_post_meta($post->ID, 'rector_text', true) ?></p>
-                    <p class="rector-blog-info"><?= formatting_date(get_post_meta($post->ID, 'rector_date', true)) ?>
+                    <h2><?= pll_e('rector_title') ?></h2>
+                    <p><?= pll_e('rector_text') ?></p>
+                    <p class="rector-blog-info"> 02.02.2025
                     </p>
                 </div>
             </div>

@@ -10,9 +10,8 @@ get_header();
             <div class="header-main-left">
                 <h1 class="header-main-title"><?php the_title() ?></h1>
                 <div class="header-main-link">
-                    <a class="header-main-reward"
-                        href="#"><?= get_post_meta($post->ID, 'main_button_awards', true); ?></a>
-                    <a class="header-main-egov" href="#"><?= get_post_meta($post->ID, 'main_button_egov', true); ?></a>
+                    <a class="header-main-reward" href="#"><?= pll_e('button_awards') ?></a>
+                    <a class="header-main-egov" href="#"><?= pll_e('button_egov') ?></a>
                     <a href="#" class="platonus-btn">PLATONUS</a>
                 </div>
             </div>
@@ -25,28 +24,24 @@ get_header();
 <header class="header-buttons">
     <div class="container">
         <div class="header-buttons-wrap">
-            <a href="#"><?= get_post_meta($post->ID, 'main_international_coop', true); ?> &#x2A01;</a>
-            <a href="#"><?= get_post_meta($post->ID, 'main_students', true); ?> &#x2A01;</a>
-            <a href="#"><?= get_post_meta($post->ID, 'main_life', true); ?> &#x2A01;</a>
-            <a href="#"><?= get_post_meta($post->ID, 'main_science', true); ?> &#x2A01;</a>
-            <a href="#"><?= get_post_meta($post->ID, 'main_career', true); ?> &#x2A01;</a>
-            <a class="rector-btn"
-                href="<?= get_permalink(pll_get_post(267)) ?>"><?= get_post_meta($post->ID, 'main_rector', true); ?></a>
-            <a href="#"><?= get_post_meta($post->ID, 'main_faculties', true); ?> &#x2A01;</a>
+            <a href="#"><?= pll_e('international_coop') ?> &#x2A01;</a>
+            <a href="#"><?= pll_e('students') ?> &#x2A01;</a>
+            <a href="#"><?= pll_e('life') ?> &#x2A01;</a>
+            <a href="#"><?= pll_e('science') ?> &#x2A01;</a>
+            <a href="#"><?= pll_e('career') ?> &#x2A01;</a>
+            <a class="rector-btn" href="<?= get_permalink(pll_get_post(267)) ?>"><?= pll_e('rector') ?></a>
+            <a href="#"><?= pll_e('faculties') ?> &#x2A01;</a>
         </div>
     </div>
 </header>
 <section class="sections">
     <div class="container">
         <div class="sections-wrap">
-            <h2 style="color: #000;"><?= get_post_meta($post->ID, 'main_sections', true); ?></h2>
+            <h2 style="color: #000;"><?= pll_e('sections') ?></h2>
             <div class="sections-buttons">
-                <button class="active"
-                    data-target="training"><?= get_post_meta($post->ID, 'main_training', true); ?></button>
-                <button class="disabled"
-                    data-target="events"><?= get_post_meta($post->ID, 'main_events', true); ?></button>
-                <button class="disabled"
-                    data-target="science"><?= get_post_meta($post->ID, 'main_science_sections', true); ?></button>
+                <button class="active" data-target="training"><?= pll_e('training') ?></button>
+                <button class="disabled" data-target="events"><?= pll_e('events') ?></button>
+                <button class="disabled" data-target="science"><?= pll_e('science_sections') ?></button>
             </div>
         </div>
 
@@ -56,17 +51,17 @@ get_header();
                 <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_training_img', true), 'full'); ?>"
                     alt="">
                 <div class="sections-card-text">
-                    <h3><?= get_post_meta($post->ID, 'main_section_training_title1', true) ?></h3>
-                    <p><?= get_post_meta($post->ID, 'main_section_training_text1', true) ?></p>
+                    <h3><?= pll_e('section_training_title1') ?></h3>
+                    <p><?= pll_e('section_training_text1') ?></p>
                 </div>
-                <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
+                <a href="#"><?= pll_e('more') ?> </a>
             </div>
             <div class="sections-card-info">
                 <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_training_img2', true), 'full'); ?>"
                     alt="">
                 <div class="sections-card-text">
-                    <h3><?= get_post_meta($post->ID, 'main_section_training_title2', true) ?></h3>
-                    <p><?= get_post_meta($post->ID, 'main_section_training_text2', true) ?></p>
+                    <h3><?= pll_e('section_training_title2') ?></h3>
+                    <p><?= pll_e('section_training_text2') ?></p>
                 </div>
                 <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
             </div>
@@ -74,10 +69,10 @@ get_header();
                 <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_training_img3', true), 'full'); ?>"
                     alt="">
                 <div class="sections-card-text">
-                    <h3><?= get_post_meta($post->ID, 'main_section_training_title3', true) ?></h3>
-                    <p><?= get_post_meta($post->ID, 'main_section_training_text3', true) ?></p>
+                    <h3><?= pll_e('section_training_title3') ?></h3>
+                    <p><?= pll_e('section_training_text3') ?></p>
                 </div>
-                <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
+                <a href="#"><?= pll_e('more') ?> </a>
             </div>
         </div>
 
@@ -128,8 +123,8 @@ get_header();
                 <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_science_img1', true), 'full'); ?>"
                     alt="">
                 <div class="sections-card-text">
-                    <h3><?= get_post_meta($post->ID, 'main_section_science_title1', true) ?></h3>
-                    <p><?= get_post_meta($post->ID, 'main_section_science_text1', true) ?></p>
+                    <h3><?= pll_e('section_science_title1') ?></h3>
+                    <p><?= pll_e('section_science_text1') ?></p>
                 </div>
                 <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
             </div>
@@ -137,8 +132,8 @@ get_header();
                 <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_science_img2', true), 'full'); ?>"
                     alt="">
                 <div class="sections-card-text">
-                    <h3><?= get_post_meta($post->ID, 'main_section_science_title2', true) ?></h3>
-                    <p><?= get_post_meta($post->ID, 'main_section_science_text2', true) ?></p>
+                    <h3><?= pll_e('section_science_title2') ?></h3>
+                    <p><?= pll_e('section_science_text2') ?></p>
                 </div>
                 <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
             </div>
@@ -146,10 +141,10 @@ get_header();
                 <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_science_img3', true), 'full'); ?>"
                     alt="">
                 <div class="sections-card-text">
-                    <h3><?= get_post_meta($post->ID, 'main_section_science_title3', true) ?></h3>
-                    <p><?= get_post_meta($post->ID, 'main_section_science_text3', true) ?></p>
+                    <h3><?= pll_e('section_science_title3') ?></h3>
+                    <p><?= pll_e('section_science_text3') ?></p>
                 </div>
-                <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
+                <a href="#"><?= pll_e('more') ?> </a>
             </div>
         </div>
     </div>
@@ -157,25 +152,25 @@ get_header();
 <section class="about">
     <div class="container">
         <div class="about-text">
-            <h3><?= get_post_meta($post->ID, 'main_about_title', true) ?></h3>
-            <p><?= get_post_meta($post->ID, 'main_about_text', true) ?></p>
+            <h3><?= pll_e('about_title') ?></h3>
+            <p><?= pll_e('about_text') ?></p>
         </div>
     </div>
 </section>
 <section class="links">
     <div class="container">
-        <h2 style="color: #000; text-align: center;"><?= get_post_meta($post->ID, 'main_links_title', true) ?></h2>
+        <h2 style="color: #000; text-align: center;"><?= pll_e('links_title') ?></h2>
         <div class="links-wrap">
             <div class="links-left">
                 <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_links_img', true), 'full') ?>"
                     alt="">
             </div>
             <div class="links-right">
-                <h2 class="links-h2"><?= get_post_meta($post->ID, 'main_links_title_mob', true) ?></h2>
+                <h2 class="links-h2"><?= pll_e('links_title_mob') ?></h2>
                 <div class="links-card">
                     <div class="links-right-text">
-                        <h3><?= get_post_meta($post->ID, 'main_links_sale_title', true) ?></h3>
-                        <p><?= get_post_meta($post->ID, 'main_links_sale_text', true) ?></p>
+                        <h3><?= pll_e('links_sale_title') ?></h3>
+                        <p><?= pll_e('links_sale_text') ?></p>
                     </div>
                     <div class="links-right-qr1">
                         <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_links_sale_qr', true), 'full') ?>"
@@ -184,8 +179,8 @@ get_header();
                 </div>
                 <div class="links-card">
                     <div class="links-right-text">
-                        <h3><?= get_post_meta($post->ID, 'main_links_entrace_title', true) ?></h3>
-                        <p><?= get_post_meta($post->ID, 'main_links_entrace_text', true) ?></p>
+                        <h3><?= pll_e('links_entrace_title') ?></h3>
+                        <p><?= pll_e('links_entrace_text') ?></p>
                     </div>
                     <div class="links-right-qr1">
                         <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_links_entrace_qr', true), 'full') ?>"
@@ -233,25 +228,25 @@ get_header();
 
 
 <section class="about-university">
-    <h2><?= get_post_meta($post->ID, 'main_about_university', true) ?></h2>
+    <h2><?= pll_e('about_university') ?></h2>
     <div class="about-university-main">
         <div class="about-university-left">
             <div class="about-university-card">
                 <h3>111</h3>
                 <div class="about-university-p">
-                    <p><?= get_post_meta($post->ID, 'main_about_university_specialization', true) ?></p>
+                    <p><?= pll_e('about_university_specialization') ?></p>
                 </div>
             </div>
             <div class="about-university-card">
                 <h3>3405</h3>
                 <div class="about-university-p">
-                    <p><?= get_post_meta($post->ID, 'main_about_university_students', true) ?></p>
+                    <p><?= pll_e('about_university_students') ?></p>
                 </div>
             </div>
             <div class="about-university-card">
                 <h3>52</h3>
                 <div class="about-university-p">
-                    <p><?= get_post_meta($post->ID, 'main_about_university_teachers', true) ?></p>
+                    <p><?= pll_e('about_university_teachers') ?></p>
                 </div>
             </div>
         </div>
@@ -264,7 +259,7 @@ get_header();
 
 <section class="live">
     <div class="container">
-        <h2><?= get_post_meta($post->ID, 'main_live_title', true) ?></h2>
+        <h2><?= pll_e('live_title') ?></h2>
         <div class="live-wrapper">
             <?php
             // параметры по умолчанию
@@ -303,7 +298,7 @@ get_header();
 
 <section class="partners">
     <h2 style="text-align: center; font-size: 30px; margin-bottom: 40px;">
-        <?= get_post_meta($post->ID, 'main_our_partners', true) ?>
+        <?= pll_e('our_partners') ?>
     </h2>
     <div class="partners-info">
         <div class="swiper">

@@ -524,16 +524,23 @@
                                         <a href="javascript:void(0)"
                                             class="submenu-toggle"><b><?= pll_e('science') ?></b></a>
                                         <ul class="submenu">
-                                            <li><a href="/science/research">Об отделе</a></li>
-                                            <li><a href="/science/research">Международное сотрудничество</a></li>
-                                            <li><a href="/science/research">Направление научной деятельности</a></li>
-                                            <li><a href="/science/research">Научные центры и лаборатории</a></li>
-                                            <li><a href="/science/research">Научные издания</a></li>
-                                            <li><a href="/science/research">Публикации ППС</a></li>
-                                            <li><a href="/science/research">Совет молодых ученых</a></li>
-                                            <li><a href="/science/research">Научно-технический совет</a></li>
-                                            <li><a href="/science/research">Научно-исследовательская работа
-                                                    студентов</a></li>
+                                            <li><a href="/science/research"><?= pll_e('about_the_department') ?></a>
+                                            </li>
+                                            <li><a
+                                                    href="/science/research"><?= pll_e('international_cooperation') ?></a>
+                                            </li>
+                                            <li><a href="/science/research"><?= pll_e('direct') ?></a></li>
+                                            <li><a href="/science/research"><?= pll_e('research_centers') ?></a></li>
+                                            <li><a href="/science/research"><?= pll_e('scientific_publications') ?></a>
+                                            </li>
+                                            <li><a href="/science/research"><?= pll_e('publications_staff') ?></a></li>
+                                            <li><a
+                                                    href="/science/research"><?= pll_e('council_of_young_scientists') ?></a>
+                                            </li>
+                                            <li><a
+                                                    href="/science/research"><?= pll_e('scientific_and_technical_council') ?></a>
+                                            </li>
+                                            <li><a href="/science/research"><?= pll_e('students_work') ?></a></li>
 
                                         </ul>
                                     </li>
@@ -547,10 +554,10 @@
                                 </div>
                             </div>
                             <a href="#" class="menu-toggle-2"><?= pll_e('college') ?></a>
-                            <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb" class="menu-toggle-2">Вестник
-                                KazUTB</a>
+                            <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb"
+                                class="menu-toggle-2"><?= pll_e('vestnik') ?></a>
                             <a href="<?= get_permalink(336); ?>" class="menu-toggle-2">E-library</a>
-                            <a href="#" class="menu-toggle-2">Контакты</a>
+                            <a href="#" class="menu-toggle-2"><?= pll_e('contacts') ?></a>
                             <div class="header-help-social-burger">
                                 <a href="#"><img src="<?= get_template_directory_uri() . '/assets/img/icon/vk.svg' ?>"
                                         alt="vk"></a>

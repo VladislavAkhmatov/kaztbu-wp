@@ -15,13 +15,13 @@ function formatting_date($date)
     return date('d.m.Y', strtotime($date));
 }
 
-
+// ПРЕВОД САЙТА
 function translate_strings()
 {
     if (!function_exists('pll_register_string')) {
         return;
     }
-    // Главная
+    // Шапка
     pll_register_string('contacts', 'contacts', 'header', false);
     pll_register_string('vestnik', 'vestnik', 'header', false);
     pll_register_string('college', 'college', 'header', false);
@@ -103,5 +103,66 @@ function translate_strings()
     pll_register_string('reference_guide', 'reference_guide', 'submenu-education', false);
 
     // Подменю наука
-    pll_register_string('reference_guide', 'reference_guide', 'submenu-education', false);
+    pll_register_string('about_the_department', 'about_the_department', 'submenu-science', false);
+    pll_register_string('international_cooperation', 'international_cooperation', 'submenu-science', false);
+    pll_register_string('direct', 'direct', 'submenu-science', false);
+    pll_register_string('research_centers', 'research_centers', 'submenu-science', false);
+    pll_register_string('scientific_publications', 'scientific_publications', 'submenu-science', false);
+    pll_register_string('publications_staff', 'publications_staff', 'submenu-science', false);
+    pll_register_string('council_of_young_scientists', 'council_of_young_scientists', 'submenu-science', false);
+    pll_register_string('scientific_and_technical_council', 'scientific_and_technical_council', 'submenu-science', false);
+    pll_register_string('students_work', 'students_work', 'submenu-science', false);
+
+    // Главная страница
+    pll_register_string('button_awards', 'button_awards', 'main', false);
+    pll_register_string('button_egov', 'button_egov', 'main', false);
+    pll_register_string('international_coop', 'international_coop', 'main', false);
+    pll_register_string('students', 'students', 'main', false);
+    pll_register_string('life', 'life', 'main', false);
+    pll_register_string('science', 'science', 'main', false);
+    pll_register_string('career', 'career', 'main', false);
+    pll_register_string('rector', 'rector', 'main', false);
+    pll_register_string('faculties', 'faculties', 'main', false);
+    pll_register_string('sections', 'sections', 'main', false);
+    pll_register_string('training', 'training', 'main', false);
+    pll_register_string('events', 'events', 'main', false);
+    pll_register_string('science_sections', 'science_sections', 'main', false);
+    pll_register_string('section_training_title1', 'section_training_title1', 'main', false);
+    pll_register_string('section_training_text1', 'section_training_text1', 'main', false);
+    pll_register_string('section_training_title2', 'section_training_title2', 'main', false);
+    pll_register_string('section_training_text2', 'section_training_text2', 'main', false);
+    pll_register_string('section_training_title3', 'section_training_title3', 'main', false);
+    pll_register_string('section_training_text3', 'section_training_text3', 'main', false);
+    pll_register_string('section_science_title1', 'section_science_title1', 'main', false);
+    pll_register_string('section_science_text1', 'section_science_text1', 'main', false);
+    pll_register_string('section_science_title2', 'section_science_title2', 'main', false);
+    pll_register_string('section_science_text2', 'section_science_text2', 'main', false);
+    pll_register_string('section_science_title3', 'section_science_title3', 'main', false);
+    pll_register_string('section_science_text3', 'section_science_text3', 'main', false);
+    pll_register_string('more', 'more', 'main', false);
+    pll_register_string('about_title', 'about_title', 'main', false);
+    pll_register_string('about_text', 'about_text', 'main', false);
+    pll_register_string('links_title', 'links_title', 'main', false);
+    pll_register_string('links_title_mob', 'links_title_mob', 'main', false);
+    pll_register_string('links_sale_title', 'links_sale_title', 'main', false);
+    pll_register_string('links_sale_text', 'links_sale_text', 'main', false);
+    pll_register_string('links_entrace_title', 'links_entrace_title', 'main', false);
+    pll_register_string('links_entrace_text', 'links_entrace_text', 'main', false);
+    pll_register_string('about_university', 'about_university', 'main', false);
+    pll_register_string('about_university_specialization', 'about_university_specialization', 'main', false);
+    pll_register_string('about_university_students', 'about_university_students', 'main', false);
+    pll_register_string('about_university_teachers', 'about_university_teachers', 'main', false);
+    pll_register_string('live_title', 'live_title', 'main', false);
+    pll_register_string('our_partners', 'our_partners', 'main', false);
+
+    // Контакты
+    pll_register_string('main_address', 'main_address', 'contacts', false);
+    pll_register_string('address', 'address', 'contacts', false);
+    pll_register_string('phones', 'phones', 'contacts', false);
+    pll_register_string('admission_committee', 'admission_committee', 'contacts', false);
+    pll_register_string('map_title', 'map_title', 'contacts', false);
+
+    // Блог ректора
+    pll_register_string('rector_title', 'rector_title', 'rector', false);
+    pll_register_string('rector_text', 'rector_text', 'rector', false);
 }
