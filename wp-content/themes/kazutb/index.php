@@ -16,7 +16,7 @@ get_header();
                 </div>
             </div>
             <div class="header-main-right">
-                <img src="http://kaztbu:8080/wp-content/uploads/2025/01/header-main-image.png">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/02/image1.jpg">
             </div>
         </div>
     </div>
@@ -48,8 +48,7 @@ get_header();
         <!-- Training Section -->
         <div class="sections-cards active-section" data-section="training">
             <div class="sections-card-info">
-                <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_training_img', true), 'full'); ?>"
-                    alt="">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/02/section1-1.jpg" alt="">
                 <div class="sections-card-text">
                     <h3><?= pll_e('section_training_title1') ?></h3>
                     <p><?= pll_e('section_training_text1') ?></p>
@@ -57,8 +56,7 @@ get_header();
                 <a href="#"><?= pll_e('more') ?> </a>
             </div>
             <div class="sections-card-info">
-                <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_training_img2', true), 'full'); ?>"
-                    alt="">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/02/section2.jpg" alt="">
                 <div class="sections-card-text">
                     <h3><?= pll_e('section_training_title2') ?></h3>
                     <p><?= pll_e('section_training_text2') ?></p>
@@ -66,8 +64,7 @@ get_header();
                 <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
             </div>
             <div class="sections-card-info">
-                <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_training_img3', true), 'full'); ?>"
-                    alt="">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/02/section3.jpg" alt="">
                 <div class="sections-card-text">
                     <h3><?= pll_e('section_training_title3') ?></h3>
                     <p><?= pll_e('section_training_text3') ?></p>
@@ -120,8 +117,7 @@ get_header();
         <!-- Science Section -->
         <div class="sections-cards" data-section="science">
             <div class="sections-card-info">
-                <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_science_img1', true), 'full'); ?>"
-                    alt="">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/02/85766021873694-3.jpg" alt="">
                 <div class="sections-card-text">
                     <h3><?= pll_e('section_science_title1') ?></h3>
                     <p><?= pll_e('section_science_text1') ?></p>
@@ -129,8 +125,7 @@ get_header();
                 <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
             </div>
             <div class="sections-card-info">
-                <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_science_img2', true), 'full'); ?>"
-                    alt="">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/02/image.jpg" alt="">
                 <div class="sections-card-text">
                     <h3><?= pll_e('section_science_title2') ?></h3>
                     <p><?= pll_e('section_science_text2') ?></p>
@@ -138,8 +133,7 @@ get_header();
                 <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
             </div>
             <div class="sections-card-info">
-                <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_section_science_img3', true), 'full'); ?>"
-                    alt="">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/02/science.jpg" alt="">
                 <div class="sections-card-text">
                     <h3><?= pll_e('section_science_title3') ?></h3>
                     <p><?= pll_e('section_science_text3') ?></p>
@@ -162,8 +156,7 @@ get_header();
         <h2 style="color: #000; text-align: center;"><?= pll_e('links_title') ?></h2>
         <div class="links-wrap">
             <div class="links-left">
-                <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_links_img', true), 'full') ?>"
-                    alt="">
+                <img src="http://kaztbu:8080/wp-content/uploads/2025/02/image213.jpg" alt="">
             </div>
             <div class="links-right">
                 <h2 class="links-h2"><?= pll_e('links_title_mob') ?></h2>
@@ -173,8 +166,7 @@ get_header();
                         <p><?= pll_e('links_sale_text') ?></p>
                     </div>
                     <div class="links-right-qr1">
-                        <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_links_sale_qr', true), 'full') ?>"
-                            alt="">
+                        <img src="http://kaztbu:8080/wp-content/uploads/2025/02/Поступление-1.jpg" alt="">
                     </div>
                 </div>
                 <div class="links-card">
@@ -183,8 +175,7 @@ get_header();
                         <p><?= pll_e('links_entrace_text') ?></p>
                     </div>
                     <div class="links-right-qr1">
-                        <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_links_entrace_qr', true), 'full') ?>"
-                            alt="">
+                        <img src="http://kaztbu:8080/wp-content/uploads/2025/02/Поступление-1.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -251,8 +242,7 @@ get_header();
             </div>
         </div>
         <div class="about-university-right">
-            <img src="<?= wp_get_attachment_image_url(get_post_meta($post->ID, 'main_about_university_img', true), 'full') ?>"
-                alt="">
+            <img src="http://kaztbu:8080/wp-content/uploads/2025/02/image312.jpg" alt="">
         </div>
     </div>
 </section>
@@ -275,7 +265,6 @@ get_header();
                 'post_type' => 'post',
                 'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
             ));
-
 
             foreach ($our_live as $item) {
                 setup_postdata($item);
