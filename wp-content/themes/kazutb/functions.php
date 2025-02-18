@@ -21,7 +21,9 @@ function translate_strings()
     if (!function_exists('pll_register_string')) {
         return;
     }
+
     // Шапка
+    pll_register_string('color', 'color', 'header', false);
     pll_register_string('contacts', 'contacts', 'header', false);
     pll_register_string('vestnik', 'vestnik', 'header', false);
     pll_register_string('college', 'college', 'header', false);

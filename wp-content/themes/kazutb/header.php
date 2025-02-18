@@ -276,9 +276,9 @@
 </head>
 
 <body>
-    <p class="arrow" id="arrow">-></p>
+    <img src="<?= get_template_directory_uri() . '/assets/img/icon/color.png' ?>" class="arrow" id="arrow">
     <div class="side-panel" id="sidePanel">
-        <p class="side-panel-text"><?php pll_e('Привет, мир!'); ?></p>
+        <p class="side-panel-text"><?php pll_e('color'); ?></p>
         <div class="side-panel-card">
             <div class="color-blue" data-color="blue"></div>
             <div class="color-green" data-color="green"></div>

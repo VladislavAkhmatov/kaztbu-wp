@@ -103,7 +103,8 @@ get_header();
                     <div class="sections-card-meta">
                         <?php $date = DateTime::createFromFormat('Y-m-d', $item->news_date) ?>
                         <a><?= date_format($date, 'd-m-Y') ?></a>
-                        <a href="#"><?= get_post_meta($post->ID, 'main_more', true) ?> </a>
+                        <a href="<?= the_permalink($item->ID) ?>"><?= get_post_meta($post->ID, 'main_more', true) ?>
+                        </a>
                     </div>
                 </div>
                 <?php
@@ -114,7 +115,7 @@ get_header();
 
         </div>
         <!-- Science Section -->
-        <div class="sections-cards" data-section="science">
+        <div class=" sections-cards" data-section="science">
             <div class="sections-card-info">
                 <img src="http://kaztbu:8080/wp-content/uploads/2025/02/85766021873694-3.jpg" alt="">
                 <div class="sections-card-text">

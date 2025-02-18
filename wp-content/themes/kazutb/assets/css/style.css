@@ -33,10 +33,10 @@ section {
     top: 50%;
     z-index: 10;
     cursor: pointer;
-    font-size: 26px;
-    left: 0;
+    left: 1%;
     transition: transform 0.3s ease, left 0.3s ease;
-
+    width: 40px;
+    height: auto;
 }
 
 
@@ -64,6 +64,7 @@ section {
     position: absolute;
     top: 0;
     text-align: center;
+    padding: 0 10px 0 10px;
 }
 
 .side-panel.panel-open {
@@ -1251,7 +1252,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 50%;
     background-color: #D9D9D9;
     border-radius: 10px;
 }
@@ -1273,13 +1274,13 @@ footer {
     padding: 22px 25px 0 25px;
     row-gap: 12px;
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     color: #2D4B76;
     text-align: justify;
 }
 
 .rector-blog-card-text h2 {
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
 }
 
@@ -1292,8 +1293,6 @@ footer {
     padding-bottom: 20px;
     color: #2D4B76;
 }
-
-/* elib */
 
 /* elib */
 .elib {
@@ -1397,6 +1396,11 @@ footer {
     .side-panel {
         width: 100px;
         left: -101px;
+    }
+
+    .arrow {
+        width: 30px;
+
     }
 
     .arrow.panel-open {

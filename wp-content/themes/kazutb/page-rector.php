@@ -14,7 +14,7 @@ get_header();
                 <div class="rector-blog-card-text">
                     <h2><?= pll_e('rector_title') ?></h2>
                     <p><?= pll_e('rector_text') ?></p>
-                    <p class="rector-blog-info"> 02.02.2025
+                    <p style="font-size: 12px" class="rector-blog-info"> 02.02.2025
                     </p>
                 </div>
             </div>
