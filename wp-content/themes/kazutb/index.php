@@ -79,14 +79,13 @@ get_header();
             // параметры по умолчанию
             $news = get_posts(array(
                 'numberposts' => 3,
-                'category_name' => 'news',
                 'orderby' => 'date',
                 'order' => 'DESC',
                 'include' => array(),
                 'exclude' => array(),
                 'meta_key' => '',
                 'meta_value' => '',
-                'post_type' => 'post',
+                'post_type' => 'news',
                 'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
             ));
 
@@ -255,15 +254,14 @@ get_header();
             // параметры по умолчанию
             $our_live = get_posts(array(
                 'numberposts' => 2,
-                'category_name' => 'our_live',
                 'orderby' => 'date',
                 'order' => 'DESC',
                 'include' => array(),
                 'exclude' => array(),
                 'meta_key' => '',
                 'meta_value' => '',
-                'post_type' => 'post',
-                'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+                'post_type' => 'our_live',
+                'suppress_filters' => true,
             ));
 
             foreach ($our_live as $item) {

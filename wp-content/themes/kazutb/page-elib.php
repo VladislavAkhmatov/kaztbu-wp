@@ -9,17 +9,15 @@ get_header();
             <?php
             $my_posts = get_posts(array(
                 'numberposts' => -1,
-                'category_name' => 'elib',
                 'orderby' => 'date',
                 'order' => 'DESC',
                 'include' => array(),
                 'exclude' => array(),
                 'meta_key' => '',
                 'meta_value' => '',
-                'post_type' => 'post',
+                'post_type' => 'elib',
                 'suppress_filters' => true,
             ));
-
 
             foreach ($my_posts as $item) {
                 setup_postdata($item);

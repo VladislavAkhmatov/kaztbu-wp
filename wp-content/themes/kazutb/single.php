@@ -1,6 +1,5 @@
 <?php
 get_header();
-$category = get_the_category();
 
 ?>
 
@@ -8,7 +7,7 @@ $category = get_the_category();
     <div class="container">
         <h1 style="padding-top: 20px; margin: 0;"></h1>
     </div>
-    <?php if ($category[0]->name == "our_live"):
+    <?php if (get_post_type() == "our_live"):
         $image_id = get_post_meta(get_the_ID(), 'our_live_img', true);
         $image_url = wp_get_attachment_image_url($image_id, 'full');
         ?>
