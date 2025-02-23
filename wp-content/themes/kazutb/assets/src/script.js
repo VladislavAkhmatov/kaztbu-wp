@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (links) {
                 submenuLinks.innerHTML = links.map(link =>
-                    `<a class="custom-submenu-links" href="${link.url}"><li  class="custom-submenu-links-li">${link.name}</li></a>`
+                    `<a class="custom-submenu-links" href="${link.url}"><li class="custom-submenu-links-li">${link.name}</li></a>`
                 ).join("");
 
                 submenu.style.display = "block";
