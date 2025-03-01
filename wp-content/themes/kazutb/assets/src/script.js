@@ -297,7 +297,26 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const textElements = document.querySelectorAll(".page-news-content p");
+    const maxLength = 300; // Максимальное количество символов
+
+    textElements.forEach(textElement => {
+        if (textElement.textContent.length > maxLength) {
+            textElement.textContent = textElement.textContent.substring(0, maxLength) + "...";
+        }
+    });
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const textElements = document.querySelectorAll(".page-news-content h2");
+    const maxLength = 55; // Максимальное количество символов
+
+    textElements.forEach(textElement => {
+        if (textElement.textContent.length > maxLength) {
+            textElement.textContent = textElement.textContent.substring(0, maxLength) + "...";
+        }
+    });
+});
 

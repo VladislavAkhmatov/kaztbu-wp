@@ -35,6 +35,7 @@ function translate_strings()
     pll_register_string('life', 'life', 'header', false);
     pll_register_string('education', 'education', 'header', false);
     pll_register_string('science', 'science', 'header', false);
+    pll_register_string('blog', 'blog', 'header', false);
 
     // Подменю об университете
     pll_register_string('about_us', 'about_us', 'submenu-about-university', false);

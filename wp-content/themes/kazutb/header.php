@@ -273,6 +273,24 @@
                     {name: "Scientific and Technical Council", url: "/science/research"},
                     {name: "Student Research Work", url: "/science/research"}
                 ]
+            },
+            blog: {
+                ru: [
+                    {name: "Новости", url: "/news"},
+                    {name: "Жизнь наших студентов", url: "/our-life"},
+
+                ],
+                kk: [
+                    {name: "Жаңалықтар", url: "/kk/news"},
+                    {name: "Біздің студенттердің өмірі", url: "/kk/our-life"},
+
+                ]
+                ,
+                en: [
+                    {name: "News", url: "/en/news"},
+                    {name: "The life of our students", url: "/en/our-life"},
+
+                ]
             }
         };
     </script>
@@ -356,6 +374,7 @@
                             <li data-links="career"><a href="#"><?= pll_e('career') ?></a></li>
                             <li data-links="education"><a href="#"><?= pll_e('education') ?></a></li>
                             <li data-links="science"><a href="#"><?= pll_e('science') ?></a></li>
+                            <li data-links="blog"><a href="#"><?= pll_e('blog') ?></a></li>
                         </ul>
 
                         <div class="custom-submenu" id="custom-submenu">
@@ -557,8 +576,10 @@
                         <a href="#" class="menu-toggle-2"><?= pll_e('college') ?></a>
                         <a href="https://vestnik.kaztbu.edu.kz/index.php/kazutb"
                            class="menu-toggle-2"><?= pll_e('vestnik') ?></a>
-                        <a href="<?= esc_url(get_permalink(pll_get_post(336))); ?>" class="menu-toggle-2">E-library</a>
-                        <a href="<?= esc_url(get_permalink(pll_get_post(221))); ?>" class="menu-toggle-2"><?= pll_e('contacts') ?></a>
+                        <a href="<?= esc_url(get_permalink(pll_get_post(336))); ?>"
+                           class="menu-toggle-2">E-library</a>
+                        <a href="<?= esc_url(get_permalink(pll_get_post(221))); ?>"
+                           class="menu-toggle-2"><?= pll_e('contacts') ?></a>
                         <div class="header-help-social-burger">
                             <a href="#"><img src="<?= get_template_directory_uri() . '/assets/img/icon/vk.svg' ?>"
                                              alt="vk"></a>
@@ -570,7 +591,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="link" href="<?= esc_url(get_permalink(pll_get_post(453)))?>"><?= pll_e('entrace') ?></a>
+                <a class="link" href="<?= esc_url(get_permalink(pll_get_post(453))) ?>"><?= pll_e('entrace') ?></a>
                 <a class="link" href="#"><?= pll_e('college') ?></a>
             </div>
             <div class="header-nav-center">
