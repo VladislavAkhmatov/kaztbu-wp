@@ -11,7 +11,6 @@
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
             rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <title>KazTBU</title>
     <script>
         var currentLanguage = "<?= pll_current_language(); ?>";
 
@@ -154,124 +153,114 @@
                     {name: "Трудоустройство выпускников", url: "/career/graduate-employment"},
                     {name: "Вакансии для студентов и выпускников", url: "/career/vacancies"},
                     {name: "Центр карьеры", url: "/career/career-center"},
-                    {name: "Онлайн-площадки по трудоустройству", url: "/career/jobs"},
-                    {name: "Как составить резюме и найти работу мечты", url: "/career/jobs"},
-                    {name: "Практика", url: "/career/jobs"},
-                    {name: "Партнеры", url: "/career/jobs"},
-                    {name: "Отзывы работодателей", url: "/career/jobs"},
-                    {name: "Правила успешного трудоустройства", url: "/career/jobs"}
+                    {name: "Онлайн-площадки по трудоустройству", url: "/career/online-job-platforms"},
+                    {name: "Как составить резюме и найти работу мечты", url: "/career/resume"},
+                    {name: "Партнеры", url: "/career/career-partners"},
+                    {name: "Отзывы работодателей", url: "/career/employer-reviews"},
+                    {name: "Правила успешного трудоустройства", url: "/career/rules-employment"}
                 ],
                 kk: [
                     {name: "Түлектерді жұмысқа орналастыру", url: "/career/graduate-employment"},
                     {name: "Студенттер мен түлектерге арналған бос орындар", url: "/career/vacancies"},
                     {name: "Мансап орталығы", url: "/career/career-center"},
-                    {name: "Жұмысқа орналасу бойынша онлайн платформалар", url: "/career/jobs"},
-                    {name: "Резюме жасау және армандаған жұмысты табу", url: "/career/jobs"},
-                    {name: "Тәжірибе", url: "/career/jobs"},
-                    {name: "Серіктестер", url: "/career/jobs"},
-                    {name: "Жұмыс берушілердің пікірлері", url: "/career/jobs"},
-                    {name: "Жұмысқа орналасудың сәтті ережелері", url: "/career/jobs"}
+                    {name: "Жұмысқа орналасу бойынша онлайн платформалар", url: "/career/online-job-platforms"},
+                    {name: "Резюме жасау және армандаған жұмысты табу", url: "/career/resume"},
+                    {name: "Серіктестер", url: "/career/career-partners"},
+                    {name: "Жұмыс берушілердің пікірлері", url: "/career/employer-reviews"},
+                    {name: "Жұмысқа орналасудың сәтті ережелері", url: "/career/rules-employment"}
                 ],
                 en: [
                     {name: "Graduate Employment", url: "/career/graduate-employment"},
                     {name: "Vacancies for Students and Graduates", url: "/career/vacancies"},
                     {name: "Career Center", url: "/career/career-center"},
-                    {name: "Online Job Platforms", url: "/career/jobs"},
-                    {name: "How to Write a Resume and Find Your Dream Job", url: "/career/jobs"},
-                    {name: "Internships", url: "/career/jobs"},
-                    {name: "Partners", url: "/career/jobs"},
-                    {name: "Employer Reviews", url: "/career/jobs"},
-                    {name: "Rules for Successful Employment", url: "/career/jobs"}
+                    {name: "Online Job Platforms", url: "/career/online-job-platforms"},
+                    {name: "How to Write a Resume and Find Your Dream Job", url: "/career/resume"},
+                    {name: "Partners", url: "/career/career-partners"},
+                    {name: "Employer Reviews", url: "/career/employer-reviews"},
+                    {name: "Rules for Successful Employment", url: "/career/rules-employment"}
                 ]
             }
             ,
             education: {
                 ru: [
-                    {name: "Расписание", url: "/education/faculties"},
-                    {name: "Академический календарь", url: "/education/faculties"},
-                    {name: "Организация онлайн-обучения в университете", url: "/education/faculties"},
-                    {name: "Образовательные программы", url: "/education/faculties"},
-                    {name: "Управление качеством, аккредитации и рейтинга", url: "/education/faculties"},
-                    {name: "Перевод, восстановление и отчисление", url: "/education/courses"},
-                    {name: "100 новых учебников на казахском “100 kitap”", url: "/education/schedule"},
-                    {name: "Материально-техническое обеспечение", url: "/education/schedule"},
-                    {name: "Академическое сотрудничество", url: "/education/schedule"},
-                    {name: "Центр обслуживания студентов", url: "/education/schedule"},
-                    {name: "Кодекс академической честности", url: "/education/schedule"},
-                    {name: "Электронные библиотеки", url: "/education/schedule"},
-                    {name: "Информация для обладателей гос.гранта", url: "/education/schedule"},
-                    {name: "Справочник путеводитель", url: "/education/schedule"}
+                    {name: "Расписание", url: "/education/schedule"},
+                    {name: "Академический календарь", url: "/education/academic-calendar"},
+                    {name: "Организация онлайн-обучения в университете", url: "/education/online-education"},
+                    {name: "Образовательные программы", url: "/education/programs"},
+                    {name: "Управление качеством, аккредитации и рейтинга", url: "/education/quality-management"},
+                    {name: "Перевод, восстановление и отчисление", url: "/education/transfer"},
+                    {name: "100 новых учебников на казахском “100 kitap”", url: "/education/100-kitap"},
+                    {name: "Материально-техническое обеспечение", url: "/education/technical-support"},
+                    {name: "Академическое сотрудничество", url: "/education/academic-cooperation"},
+                    {name: "Центр обслуживания студентов", url: "/education/student-service"},
+                    {name: "Кодекс академической честности", url: "/education/academic-integrity"},
+                    {name: "Информация для обладателей гос.гранта", url: "/education/state-grant"},
+                    {name: "Справочник путеводитель", url: "/education/guidebook"}
                 ],
                 kk: [
-                    {name: "Кесте", url: "/education/faculties"},
-                    {name: "Академиялық күнтізбе", url: "/education/faculties"},
-                    {name: "Университетте онлайн оқыту ұйымдастыру", url: "/education/faculties"},
-                    {name: "Білім беру бағдарламалары", url: "/education/faculties"},
-                    {name: "Сапа менеджменті, аккредиттеу және рейтинг", url: "/education/faculties"},
-                    {name: "Аударма, қалпына келтіру және шығару", url: "/education/courses"},
-                    {name: "Қазақ тілінде 100 жаңа оқулық “100 kitap”", url: "/education/schedule"},
-                    {name: "Материалдық-техникалық қамтамасыз ету", url: "/education/schedule"},
-                    {name: "Академиялық ынтымақтастық", url: "/education/schedule"},
-                    {name: "Студенттерге қызмет көрсету орталығы", url: "/education/schedule"},
-                    {name: "Академиялық адалдық кодексі", url: "/education/schedule"},
-                    {name: "Электронды кітапханалар", url: "/education/schedule"},
-                    {name: "Мемлекеттік грант иегерлері үшін ақпарат", url: "/education/schedule"},
-                    {name: "Көшбасшылық анықтамалық", url: "/education/schedule"}
-                ]
-                ,
+                    {name: "Кесте", url: "/education/schedule"},
+                    {name: "Академиялық күнтізбе", url: "/education/academic-calendar"},
+                    {name: "Университетте онлайн оқыту ұйымдастыру", url: "/education/online-education"},
+                    {name: "Білім беру бағдарламалары", url: "/education/programs"},
+                    {name: "Сапа менеджменті, аккредиттеу және рейтинг", url: "/education/quality-management"},
+                    {name: "Аударма, қалпына келтіру және шығару", url: "/education/transfer"},
+                    {name: "Қазақ тілінде 100 жаңа оқулық “100 kitap”", url: "/education/100-kitap"},
+                    {name: "Материалдық-техникалық қамтамасыз ету", url: "/education/technical-support"},
+                    {name: "Академиялық ынтымақтастық", url: "/education/academic-cooperation"},
+                    {name: "Студенттерге қызмет көрсету орталығы", url: "/education/student-service"},
+                    {name: "Академиялық адалдық кодексі", url: "/education/academic-integrity"},
+                    {name: "Мемлекеттік грант иегерлері үшін ақпарат", url: "/education/state-grant"},
+                    {name: "Көшбасшылық анықтамалық", url: "/education/guidebook"}
+                ],
                 en: [
-                    {name: "Schedule", url: "/education/faculties"},
-                    {name: "Academic Calendar", url: "/education/faculties"},
-                    {name: "Organization of online education at the university", url: "/education/faculties"},
-                    {name: "Educational Programs", url: "/education/faculties"},
-                    {name: "Quality Management, Accreditation and Ranking", url: "/education/faculties"},
-                    {name: "Transfer, Restoration, and Expulsion", url: "/education/courses"},
-                    {name: "100 New Textbooks in Kazakh “100 kitap”", url: "/education/schedule"},
-                    {name: "Material and Technical Support", url: "/education/schedule"},
-                    {name: "Academic Cooperation", url: "/education/schedule"},
-                    {name: "Student Service Center", url: "/education/schedule"},
-                    {name: "Academic Integrity Code", url: "/education/schedule"},
-                    {name: "Electronic Libraries", url: "/education/schedule"},
-                    {name: "Information for State Grant Holders", url: "/education/schedule"},
-                    {name: "Guidebook", url: "/education/schedule"}
+                    {name: "Schedule", url: "/education/schedule"},
+                    {name: "Academic Calendar", url: "/education/academic-calendar"},
+                    {name: "Organization of online education at the university", url: "/education/online-education"},
+                    {name: "Educational Programs", url: "/education/programs"},
+                    {name: "Quality Management, Accreditation and Ranking", url: "/education/quality-management"},
+                    {name: "Transfer, Restoration, and Expulsion", url: "/education/transfer"},
+                    {name: "100 New Textbooks in Kazakh “100 kitap”", url: "/education/100-kitap"},
+                    {name: "Material and Technical Support", url: "/education/technical-support"},
+                    {name: "Academic Cooperation", url: "/education/academic-cooperation"},
+                    {name: "Student Service Center", url: "/education/student-service"},
+                    {name: "Academic Integrity Code", url: "/education/academic-integrity"},
+                    {name: "Information for State Grant Holders", url: "/education/state-grant"},
+                    {name: "Guidebook", url: "/education/guidebook"}
                 ]
             },
             science: {
                 ru: [
-                    {name: "Об отделе", url: "/science/research"},
-                    {name: "Международное сотрудничество", url: "/science/research"},
-                    {name: "Направление научной деятельности", url: "/science/research"},
-                    {name: "Научные центры и лаборатории", url: "/science/research"},
-                    {name: "Научные издания", url: "/science/research"}, {
-                        name: "Публикации ППС",
-                        url: "/science/research"
-                    },
-                    {name: "Совет молодых ученых", url: "/science/research"},
-                    {name: "Научно-технический совет", url: "/science/research"},
-                    {name: "Научно-исследовательская работа студентов", url: "/science/research"},
+                    {name: "Об отделе", url: "/science/about"},
+                    {name: "Международное сотрудничество", url: "/science/international-cooperation"},
+                    {name: "Направление научной деятельности", url: "/science/research-directions"},
+                    {name: "Научные центры и лаборатории", url: "/science/centers-labs"},
+                    {name: "Научные издания", url: "/science/publications"},
+                    {name: "Публикации ППС", url: "/science/faculty-publications"},
+                    {name: "Совет молодых ученых", url: "/science/young-scientists-council"},
+                    {name: "Научно-технический совет", url: "/science/technical-council"},
+                    {name: "Научно-исследовательская работа студентов", url: "/science/student-research"}
                 ],
                 kk: [
-                    {name: "Бөлім туралы", url: "/science/research"},
-                    {name: "Халықаралық ынтымақтастық", url: "/science/research"},
-                    {name: "Ғылыми қызмет бағыттары", url: "/science/research"},
-                    {name: "Ғылыми орталықтар мен зертханалар", url: "/science/research"},
-                    {name: "Ғылыми жарияланымдар", url: "/science/research"},
-                    {name: "Педагогикалық қызметкерлердің жарияланымдары", url: "/science/research"},
-                    {name: "Жас ғалымдар кеңесі", url: "/science/research"},
-                    {name: "Ғылыми-техникалық кеңес", url: "/science/research"},
-                    {name: "Студенттердің ғылыми-зерттеу жұмысы", url: "/science/research"}
-                ]
-                ,
+                    {name: "Бөлім туралы", url: "/science/about"},
+                    {name: "Халықаралық ынтымақтастық", url: "/science/international-cooperation"},
+                    {name: "Ғылыми қызмет бағыттары", url: "/science/research-directions"},
+                    {name: "Ғылыми орталықтар мен зертханалар", url: "/science/centers-labs"},
+                    {name: "Ғылыми жарияланымдар", url: "/science/publications"},
+                    {name: "Педагогикалық қызметкерлердің жарияланымдары", url: "/science/faculty-publications"},
+                    {name: "Жас ғалымдар кеңесі", url: "/science/young-scientists-council"},
+                    {name: "Ғылыми-техникалық кеңес", url: "/science/technical-council"},
+                    {name: "Студенттердің ғылыми-зерттеу жұмысы", url: "/science/student-research"}
+                ],
                 en: [
-                    {name: "About the Department", url: "/science/research"},
-                    {name: "International Cooperation", url: "/science/research"},
-                    {name: "Research Activity Directions", url: "/science/research"},
-                    {name: "Research Centers and Laboratories", url: "/science/research"},
-                    {name: "Scientific Publications", url: "/science/research"},
-                    {name: "Publications of Faculty Members", url: "/science/research"},
-                    {name: "Young Scientists Council", url: "/science/research"},
-                    {name: "Scientific and Technical Council", url: "/science/research"},
-                    {name: "Student Research Work", url: "/science/research"}
+                    {name: "About the Department", url: "/science/about"},
+                    {name: "International Cooperation", url: "/science/international-cooperation"},
+                    {name: "Research Activity Directions", url: "/science/research-directions"},
+                    {name: "Research Centers and Laboratories", url: "/science/centers-labs"},
+                    {name: "Scientific Publications", url: "/science/publications"},
+                    {name: "Publications of Faculty Members", url: "/science/faculty-publications"},
+                    {name: "Young Scientists Council", url: "/science/young-scientists-council"},
+                    {name: "Scientific and Technical Council", url: "/science/technical-council"},
+                    {name: "Student Research Work", url: "/science/student-research"}
                 ]
             },
             blog: {
@@ -294,6 +283,7 @@
             }
         };
     </script>
+    <title>KazTBU</title>
 </head>
 
 <body>
