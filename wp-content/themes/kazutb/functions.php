@@ -168,4 +168,7 @@ function translate_strings()
     // Блог ректора
     pll_register_string('rector_title', 'rector_title', 'rector', false);
     pll_register_string('rector_text', 'rector_text', 'rector', false);
+
+    // О нас
+    pll_register_string('about_subtitle', 'about_subtitle', 'about', false);
 }

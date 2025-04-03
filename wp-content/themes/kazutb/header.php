@@ -36,11 +36,11 @@
                     {name: "Кадрлар бөлімі", url: "/kk/about/hr"},
                     {name: "Нормативтік құжаттар", url: "/kk/about/regulatory"},
                     {name: "Коррупцияға қарсы тұру", url: "/kk/about/anti-corruption"},
-                    {name: "Ғылыми кеңес", url: "/about/academic-council"},
-                    {name: "Аккредитация және рейтингтер", url: "/about/accreditation-and-ratings"},
-                    {name: "Технопарк", url: "/about/technopark"},
-                    {name: "Әкімшілік бөлімдер", url: "/about/administrative-units"},
-                    {name: "Басшылық", url: "/about/management"}
+                    {name: "Ғылыми кеңес", url: "/kk/about/academic-council"},
+                    {name: "Аккредитация және рейтингтер", url: "/kk/about/accreditation-and-ratings"},
+                    {name: "Технопарк", url: "/kk/about/technopark"},
+                    {name: "Әкімшілік бөлімдер", url: "/kk/about/administrative-units"},
+                    {name: "Басшылық", url: "/kk/about/management"}
                 ],
                 en: [
                     {name: "About Us", url: "/en/about"},
@@ -49,11 +49,11 @@
                     {name: "HR Department", url: "/en/about/hr"},
                     {name: "Regulatory Documents", url: "/en/about/regulatory"},
                     {name: "Anti-Corruption", url: "/en/about/anti-corruption"},
-                    {name: "Academic Council", url: "/about/academic-council"},
-                    {name: "Accreditation and Ratings", url: "/about/accreditation-and-ratings"},
-                    {name: "Technopark", url: "/about/technopark"},
-                    {name: "Administrative Units", url: "/about/administrative-units"},
-                    {name: "Management", url: "/about/management"}
+                    {name: "Academic Council", url: "/en/about/academic-council"},
+                    {name: "Accreditation and Ratings", url: "/en/about/accreditation-and-ratings"},
+                    {name: "Technopark", url: "/en/about/technopark"},
+                    {name: "Administrative Units", url: "/en/about/administrative-units"},
+                    {name: "Management", url: "/en/about/management"}
                 ]
             },
             admissions: {
@@ -72,32 +72,32 @@
                     {name: "Дистанционное обучение", url: "/admissions/distance-learning"}
                 ],
                 kk: [
-                    {name: "Виртуалды қабылдау комиссиясы", url: "/admissions/virtual-office"},
-                    {name: "Виртуалды тіркеу кеңсесі", url: "/admissions/virtual-registrar"},
-                    {name: "Қабылдау ережелері", url: "/admissions/rules"},
-                    {name: "Онлайн тіркеу", url: "/admissions/online-registration"},
-                    {name: "Қабылдау комиссиясының байланыстары", url: "/admissions/contacts"},
-                    {name: "Шетел азаматтарын қабылдау", url: "/admissions/international"},
-                    {name: "Бакалавриат", url: "/admissions/bachelor"},
-                    {name: "Магистратура", url: "/admissions/magistracy"},
-                    {name: "Түлектер", url: "/admissions/alumni"},
-                    {name: "Жиі қойылатын сұрақтар", url: "/admissions/faq"},
-                    {name: "Неге КАЗУТБ?", url: "/admissions/why-choose-us"},
-                    {name: "Қашықтан оқыту", url: "/admissions/distance-learning"}
+                    {name: "Виртуалды қабылдау комиссиясы", url: "/kk/admissions/virtual-office"},
+                    {name: "Виртуалды тіркеу кеңсесі", url: "/kk/admissions/virtual-registrar"},
+                    {name: "Қабылдау ережелері", url: "/kk/admissions/rules"},
+                    {name: "Онлайн тіркеу", url: "/kk/admissions/online-registration"},
+                    {name: "Қабылдау комиссиясының байланыстары", url: "/kk/admissions/contacts"},
+                    {name: "Шетел азаматтарын қабылдау", url: "/kk/admissions/international"},
+                    {name: "Бакалавриат", url: "/kk/admissions/bachelor"},
+                    {name: "Магистратура", url: "/kk/admissions/magistracy"},
+                    {name: "Түлектер", url: "/kk/admissions/alumni"},
+                    {name: "Жиі қойылатын сұрақтар", url: "/kk/admissions/faq"},
+                    {name: "Неге КАЗУТБ?", url: "/kk/admissions/why-choose-us"},
+                    {name: "Қашықтан оқыту", url: "/kk/admissions/distance-learning"}
                 ],
                 en: [
-                    {name: "Virtual Admissions Office", url: "/admissions/virtual-office"},
-                    {name: "Virtual Registrar Office", url: "/admissions/virtual-registrar"},
-                    {name: "Admission Rules", url: "/admissions/rules"},
-                    {name: "Online Registration", url: "/admissions/online-registration"},
-                    {name: "Contacts of the admissions Committee", url: "/admissions/contacts"},
-                    {name: "Admission of International Students", url: "/admissions/international"},
-                    {name: "Bachelor course", url: "/admissions/bachelor"},
-                    {name: "Magistracy", url: "/admissions/magistracy"},
-                    {name: "Alumni", url: "/admissions/alumni"},
-                    {name: "Frequently Asked Questions", url: "/admissions/faq"},
-                    {name: "Why Choose Us?", url: "/admissions/why-choose-us"},
-                    {name: "Distance Learning", url: "/admissions/distance-learning"}
+                    {name: "Virtual Admissions Office", url: "/en/admissions/virtual-office"},
+                    {name: "Virtual Registrar Office", url: "/en/admissions/virtual-registrar"},
+                    {name: "Admission Rules", url: "/en/admissions/rules"},
+                    {name: "Online Registration", url: "/en/admissions/online-registration"},
+                    {name: "Contacts of the admissions Committee", url: "/en/admissions/contacts"},
+                    {name: "Admission of International Students", url: "/en/admissions/international"},
+                    {name: "Bachelor course", url: "/en/admissions/bachelor"},
+                    {name: "Magistracy", url: "/en/admissions/magistracy"},
+                    {name: "Alumni", url: "/en/admissions/alumni"},
+                    {name: "Frequently Asked Questions", url: "/en/admissions/faq"},
+                    {name: "Why Choose Us?", url: "/en/admissions/why-choose-us"},
+                    {name: "Distance Learning", url: "/en/admissions/distance-learning"}
                 ]
 
             },
@@ -110,42 +110,42 @@
                     {name: "Партнеры", url: "/international/partners"}
                 ],
                 kk: [
-                    {name: "Халықаралық ынтымақтастық", url: "/international/exchange"},
-                    {name: "Тәжірибелер", url: "/international/internships"},
-                    {name: "Академиялық ұтқырлық", url: "/international/academic-mobility"},
-                    {name: "Қауымдастықтар, ұйымдар және консорциумдар", url: "/international/associations"},
-                    {name: "Серіктестер", url: "/international/partners"}
+                    {name: "Халықаралық ынтымақтастық", url: "/kk/international/exchange"},
+                    {name: "Тәжірибелер", url: "/kk/international/internships"},
+                    {name: "Академиялық ұтқырлық", url: "/kk/international/academic-mobility"},
+                    {name: "Қауымдастықтар, ұйымдар және консорциумдар", url: "/kk/international/associations"},
+                    {name: "Серіктестер", url: "/kk/international/partners"}
                 ],
                 en: [
-                    {name: "International Cooperation", url: "/international/exchange"},
-                    {name: "Internships", url: "/international/internships"},
-                    {name: "Academic Mobility", url: "/international/academic-mobility"},
-                    {name: "Associations, Organizations, and Consortia", url: "/international/associations"},
-                    {name: "Partners", url: "/international/partners"}
+                    {name: "International Cooperation", url: "/en/international/exchange"},
+                    {name: "Internships", url: "/en/international/internships"},
+                    {name: "Academic Mobility", url: "/en/international/academic-mobility"},
+                    {name: "Associations, Organizations, and Consortia", url: "/en/international/associations"},
+                    {name: "Partners", url: "/en/international/partners"}
                 ]
 
             },
             life: {
                 ru: [
-                    {name: "Комитет по делам молодежи", url: "/life/youth-affairs"},
-                    {name: "Социальный пакет для обучающихся", url: "/life/social-package"},
-                    {name: "Воспитательная работа", url: "/life/educational-work"},
-                    {name: "Клубы по интересам", url: "/life/clubs"},
-                    {name: "Общежитие", url: "/life/clubs"}
+                    {name: "Комитет по делам молодежи", url: "/our-life/youth-affairs"},
+                    {name: "Социальный пакет для обучающихся", url: "/our-life/social-package"},
+                    {name: "Воспитательная работа", url: "/our-life/educational-work"},
+                    {name: "Клубы по интересам", url: "/our-life/clubs"},
+                    {name: "Общежитие", url: "/our-life/clubs"}
                 ],
                 kk: [
-                    {name: "Жастар ісі жөніндегі комитет", url: "/life/youth-affairs"},
-                    {name: "Студенттерге арналған әлеуметтік пакет", url: "/life/social-package"},
-                    {name: "Тәрбиелік жұмыс", url: "/life/educational-work"},
-                    {name: "Қызығушылық клубтары", url: "/life/clubs"},
-                    {name: "Жатақхана", url: "/life/clubs"}
+                    {name: "Жастар ісі жөніндегі комитет", url: "/kk/our-life/youth-affairs"},
+                    {name: "Студенттерге арналған әлеуметтік пакет", url: "/kk/our-life/social-package"},
+                    {name: "Тәрбиелік жұмыс", url: "/kk/our-life/educational-work"},
+                    {name: "Қызығушылық клубтары", url: "/kk/our-life/clubs"},
+                    {name: "Жатақхана", url: "/kk/our-life/clubs"}
                 ],
                 en: [
-                    {name: "Youth Affairs Committee", url: "/life/youth-affairs"},
-                    {name: "Social Package for Students", url: "/life/social-package"},
-                    {name: "Educational Work", url: "/life/educational-work"},
-                    {name: "Interest Clubs", url: "/life/clubs"},
-                    {name: "Dormitory", url: "/life/clubs"}
+                    {name: "Youth Affairs Committee", url: "/en/our-life/youth-affairs"},
+                    {name: "Social Package for Students", url: "/en/our-life/social-package"},
+                    {name: "Educational Work", url: "/en/our-life/educational-work"},
+                    {name: "Interest Clubs", url: "/en/our-life/clubs"},
+                    {name: "Dormitory", url: "/en/our-life/clubs"}
                 ]
             },
             career: {
@@ -160,24 +160,24 @@
                     {name: "Правила успешного трудоустройства", url: "/career/rules-employment"}
                 ],
                 kk: [
-                    {name: "Түлектерді жұмысқа орналастыру", url: "/career/graduate-employment"},
-                    {name: "Студенттер мен түлектерге арналған бос орындар", url: "/career/vacancies"},
-                    {name: "Мансап орталығы", url: "/career/career-center"},
-                    {name: "Жұмысқа орналасу бойынша онлайн платформалар", url: "/career/online-job-platforms"},
-                    {name: "Резюме жасау және армандаған жұмысты табу", url: "/career/resume"},
-                    {name: "Серіктестер", url: "/career/career-partners"},
-                    {name: "Жұмыс берушілердің пікірлері", url: "/career/employer-reviews"},
-                    {name: "Жұмысқа орналасудың сәтті ережелері", url: "/career/rules-employment"}
+                    {name: "Түлектерді жұмысқа орналастыру", url: "/kk/career/graduate-employment"},
+                    {name: "Студенттер мен түлектерге арналған бос орындар", url: "/kk/career/vacancies"},
+                    {name: "Мансап орталығы", url: "/kk/career/career-center"},
+                    {name: "Жұмысқа орналасу бойынша онлайн платформалар", url: "/kk/career/online-job-platforms"},
+                    {name: "Резюме жасау және армандаған жұмысты табу", url: "/kk/career/resume"},
+                    {name: "Серіктестер", url: "/kk/career/career-partners"},
+                    {name: "Жұмыс берушілердің пікірлері", url: "/kk/career/employer-reviews"},
+                    {name: "Жұмысқа орналасудың сәтті ережелері", url: "/kk/career/rules-employment"}
                 ],
                 en: [
-                    {name: "Graduate Employment", url: "/career/graduate-employment"},
-                    {name: "Vacancies for Students and Graduates", url: "/career/vacancies"},
-                    {name: "Career Center", url: "/career/career-center"},
-                    {name: "Online Job Platforms", url: "/career/online-job-platforms"},
-                    {name: "How to Write a Resume and Find Your Dream Job", url: "/career/resume"},
-                    {name: "Partners", url: "/career/career-partners"},
-                    {name: "Employer Reviews", url: "/career/employer-reviews"},
-                    {name: "Rules for Successful Employment", url: "/career/rules-employment"}
+                    {name: "Graduate Employment", url: "/en/career/graduate-employment"},
+                    {name: "Vacancies for Students and Graduates", url: "/en/career/vacancies"},
+                    {name: "Career Center", url: "/en/career/career-center"},
+                    {name: "Online Job Platforms", url: "/en/career/online-job-platforms"},
+                    {name: "How to Write a Resume and Find Your Dream Job", url: "/en/career/resume"},
+                    {name: "Partners", url: "/en/career/career-partners"},
+                    {name: "Employer Reviews", url: "/en/career/employer-reviews"},
+                    {name: "Rules for Successful Employment", url: "/en/career/rules-employment"}
                 ]
             }
             ,
@@ -198,19 +198,19 @@
                     {name: "Справочник путеводитель", url: "/education/guidebook"}
                 ],
                 kk: [
-                    {name: "Кесте", url: "/education/schedule"},
-                    {name: "Академиялық күнтізбе", url: "/education/academic-calendar"},
-                    {name: "Университетте онлайн оқыту ұйымдастыру", url: "/education/online-education"},
-                    {name: "Білім беру бағдарламалары", url: "/education/programs"},
-                    {name: "Сапа менеджменті, аккредиттеу және рейтинг", url: "/education/quality-management"},
-                    {name: "Аударма, қалпына келтіру және шығару", url: "/education/transfer"},
-                    {name: "Қазақ тілінде 100 жаңа оқулық “100 kitap”", url: "/education/100-kitap"},
-                    {name: "Материалдық-техникалық қамтамасыз ету", url: "/education/technical-support"},
-                    {name: "Академиялық ынтымақтастық", url: "/education/academic-cooperation"},
-                    {name: "Студенттерге қызмет көрсету орталығы", url: "/education/student-service"},
-                    {name: "Академиялық адалдық кодексі", url: "/education/academic-integrity"},
-                    {name: "Мемлекеттік грант иегерлері үшін ақпарат", url: "/education/state-grant"},
-                    {name: "Көшбасшылық анықтамалық", url: "/education/guidebook"}
+                    {name: "Кесте", url: "/kk/education/schedule"},
+                    {name: "Академиялық күнтізбе", url: "/kk/education/academic-calendar"},
+                    {name: "Университетте онлайн оқыту ұйымдастыру", url: "/kk/education/online-education"},
+                    {name: "Білім беру бағдарламалары", url: "/kk/education/programs"},
+                    {name: "Сапа менеджменті, аккредиттеу және рейтинг", url: "/kk/education/quality-management"},
+                    {name: "Аударма, қалпына келтіру және шығару", url: "/kk/education/transfer"},
+                    {name: "Қазақ тілінде 100 жаңа оқулық “100 kitap”", url: "/kk/education/100-kitap"},
+                    {name: "Материалдық-техникалық қамтамасыз ету", url: "/kk/education/technical-support"},
+                    {name: "Академиялық ынтымақтастық", url: "/kk/education/academic-cooperation"},
+                    {name: "Студенттерге қызмет көрсету орталығы", url: "/kk/education/student-service"},
+                    {name: "Академиялық адалдық кодексі", url: "/kk/education/academic-integrity"},
+                    {name: "Мемлекеттік грант иегерлері үшін ақпарат", url: "/kk/education/state-grant"},
+                    {name: "Көшбасшылық анықтамалық", url: "/kk/education/guidebook"}
                 ],
                 en: [
                     {name: "Schedule", url: "/education/schedule"},
