@@ -10,7 +10,7 @@ get_header();
         <div class="container">
             <div class="rector-blog-wrapper">
                 <div class="rector-blog-card">
-                    <img src="http://kaztbu:8080/wp-content/uploads/2025/04/tekh-i-biznesajpg.jpeg"
+                    <img src="http://kaztbu:8080/wp-content/uploads/2025/04/background-3.jpg"
                          alt="rector-blog-img">
                     <div class="rector-blog-card-text">
                         <p><?= the_content() ?></p>

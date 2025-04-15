@@ -12,7 +12,6 @@ get_header();
                 <div class="rector-blog-card">
                     <img src="http://kaztbu:8080/wp-content/uploads/2025/04/tekh-i-biznesajpg.jpeg" alt="rector-blog-img">
                     <div class="rector-blog-card-text">
-                        <h2><?= pll_e('about_subtitle') ?></h2>
                         <p><?= the_content() ?></p>
                     </div>
                 </div>
