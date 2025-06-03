@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>KazTBU</title>
+</head>
+
+<body>
+    <p class="arrow" id="arrow">-></p>
+    <div class="side-panel" id="sidePanel">
+        <p class="side-panel-text">Смена цветовой гаммы</p>
+        <div class="side-panel-card">
+            <div class="color-blue" data-color="blue"></div>
+            <div class="color-green" data-color="green"></div>
+            <div class="color-pink" data-color="pink"></div>
+        </div>
+    </div>
+    <header class="header-help">
+        <div class="container">
+            <div class="header-help-info">
+                <div class="header-help-left">
+                    <div class="header-help-social">
+                        <a href="#"><img src="./img/icon/vk.svg" alt="vk"></a>
+                        <a href="#"><img src="./img/icon/inst.svg" alt="instagram"></a>
+                        <a href="#"><img src="./img/icon/telega.svg" alt="telegram"></a>
+                    </div>
+                    <div class="header-help-support">
+                        <img src="./img/icon/headphone.svg" alt="headphone">
+                        <p>+7 771 766 99 99</p>
+                    </div>
+                </div>
+
+                <div class="header-help-right">
+                    <div class="header-help-mail">
+                        <p>akutb@mail.ru</p>
+                        <img src="./img/icon/mail.svg" alt="headphone">
+                    </div>
+
+                    <div class="header-help-menu">
+                        <a href="">
+                            <img src="./img/icon/eye.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./img/icon/search.svg" alt="">
+                        </a>
+                        <select class="header-help-select">
+                            <option value="ru">RU</option>
+                            <option value="kz">KZ</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header-nav">
+        <div class="container">
+            <div class="header-nav-info">
+                <div class="header-nav-left">
+                    <select class="header-nav-select">
+                        <option value="ru">Карта сайта</option>
+                    </select>
+                    <div class="overlay"></div>
+                    <div class="menu-mobile">
+                        <img class="burger" src="./img/icon/burger.svg" alt="burder">
+                        <div class="menu-mobile-burger" id="sideMenu">
+                            <div class="header-help-menu-burger">
+                                <a href=""><img src="./img/icon/eye.svg" alt=""></a>
+                                <a href=""><img src="./img/icon/search.svg" alt=""></a>
+                            </div>
+                            <button class="close-btn">X</button>
+                            <div class="dropdown">
+                                <a href="#" class="menu-toggle">Карта сайта</a>
+                                <div class="dropdown-menu">
+                                    <a href="#">Тест 1</a>
+                                    <a href="#">Тест 2</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a href="#" class="menu-toggle">Поступление</a>
+                                <div class="dropdown-menu">
+                                    <a href="#">Тест 1</a>
+                                    <a href="#">Тест 2</a>
+                                </div>
+                            </div>
+                            <a href="#" class="menu-toggle-2">Сайт колледжа</a>
+                            <a href="#" class="menu-toggle-2">Вестник KazUTB</a>
+                            <a href="#" class="menu-toggle-2">E-library</a>
+                            <a href="#" class="menu-toggle-2">Контакты</a>
+
+                            <div class="header-help-social-burger">
+                                <a href="#"><img src="./img/icon/vk.svg" alt="vk"></a>
+                                <a href="#"><img src="./img/icon/inst.svg" alt="instagram"></a>
+                                <a href="#"><img src="./img/icon/telega.svg" alt="telegram"></a>
+                            </div>
+                        </div>
+                        <select class="header-help-select-mob">
+                            <option value="ru">RU</option>
+                            <option value="kz">KZ</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </div>
+                    <p>Поступление</p>
+                    <p>Сайт колледжа</p>
+                </div>
+
+                <div class="header-nav-center">
+                    <div class="header-nav-ellipse"></div>
+
+
+                    <div class="header-nav-logo">
+                        <img class="logo" src="./img/template/logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="header-nav-right">
+                    <p>Вестник KazUTB</p>
+                    <p>E-library</p>
+                    <p>Контакты</p>
+                    <a href="#" class="platonus-btn">Platonus</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section class="elib">
+        <div class="container">
+            <h2 class="elib-h2">E-Library</h2>
+            <div class="elib-wrapper">
+                <div class="elib-card">
+                    <div class="elib-content">
+                        <p>Дата загрузки - 27.12.2024</p>
+                        <h3 class="elib-h3">Lorem ipsum odor</h3>
+                        <div class="elib-download">
+                            <a href="">
+                                <img src="./img/icon/download.svg" alt="download.png">
+                                <span>Скачать документ</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elib-card">
+                    <div class="elib-content">
+                        <p>Дата загрузки - 27.12.2024</p>
+                        <h3 class="elib-h3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                        </h3>
+                        <div class="elib-download">
+                            <a href="">
+                                <img src="./img/icon/download.svg" alt="download.png">
+                                <span>Скачать документ</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elib-card">
+                    <div class="elib-content">
+                        <p>Дата загрузки - 27.12.2024</p>
+                        <h3 class="elib-h3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                        </h3>
+                        <div class="elib-download">
+                            <a href="">
+                                <img src="./img/icon/download.svg" alt="download.png">
+                                <span>Скачать документ</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-upper-line">
+
+        </div>
+        <div class="footer-container">
+            <div class="footer-wrapper">
+                <div class="footer-block">
+                    <div class="block-content1">
+                        <img src="./img/template/logo.svg" alt="">
+                        <div class="block-content-text">
+                            <p>© акционерное Общество</p>
+                            <h2>Казахский университет технологии и бизнеса имени К. Кулажанова</h2>
+                        </div>
+                    </div>
+                    <p style="font-weight: bold; margin-top: 35px; font-size: 16px;">Свидетельство IA-A № 0124 от
+                        22.05.2021 г. Независимое агентство по обеспечению качества в образовании (НАОКО) Срок действия
+                        свидетельства: 22.05.2021 г. – 21.05.2026 г.</p>
+                </div>
+                <div class="footer-block">
+                    <div class="block-content2">
+                        <h2 style="font-size: 20px;">Полезные ссылки</h2>
+                        <p>E-MAIL: <span style="text-decoration: underline;">akutb@mail.ru</span></p>
+                    </div>
+                </div>
+                <div class="footer-block">
+                    <div class="block-content2">
+                        <h2 style="font-size: 20px;">Контакты КАЗУТБ</h2>
+                        <p>г. Астана, Левый берег, район Нура, ул. Кайым Мухамедханова, здание 37 А.</p>
+                        <p>Приемная ректора:</p>
+                        <p>тел: <span style="text-decoration: underline;">+7 (7172) 72 58 12</span></p>
+                    </div>
+                </div>
+                <div class="footer-block">
+                    <div class="block-content2">
+                        <h2 style="font-size: 20px;">Полезные ссылки</h2>
+                        <p>+7 775 232 22 66</p>
+                        <p>+7 771 766 99 99,</p>
+                        <p>+7 7172 725 815</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="./src/script.js">
+
+    </script>
+
+</body>
+
+</html>
